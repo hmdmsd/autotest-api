@@ -1,0 +1,129 @@
+{
+  "@id": "",
+  "idImmuable": "2148:8080-F-1187-2025-05-05",
+  "codeService": "2025",
+  "numeroCourse": "8080",
+  "indicateurFer": "FERRE",
+  "codeTransporteurResponsable": "1F",
+  "dateDerniereModification": "2025-05-01T08:51:30.250+0000",
+  "dateDerniereModificationProducteur": "2025-05-01T08:50:30.250+0000",
+  "systemeCreateur": "2148",
+  "identifiantDansSystemeCreateur": "8080-2025-05-01",
+  "estTechnique": "",
+  "etat": "ACTIVE",
+  "codeCompagnieTransporteur": "1187",
+  "dateReference": "2025-10-02",
+  "dateCirculation": "2025-10-01",
+  "idVersion": "",
+  "listePointDeParcours": [
+    {
+      "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d7",
+      "rang": 1,
+      "cr": "0087",
+      "ci": "360003",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "horaireObserveDepart": {
+        "dateHeure": "2025-05-01T08:50:30.000+0000",
+        "source": "BREHAT",
+        "dateHeureEmission": "2025-05-01T08:50:30.250+0000"
+      }
+    },
+    {
+      "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d8",
+      "rang": 2,
+      "cr": "0087",
+      "ci": "360004",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "horaireObserveArrivee": {
+        "dateHeure": "2025-05-01T09:50:30.000+0000",
+        "source": "BREHAT",
+        "dateHeureEmission": "2025-05-01T09:50:30.250+0000"
+      },
+      "horaireObserveDepart": {
+        "dateHeure": "2025-05-01T09:55:30.000+0000",
+        "source": "BREHAT",
+        "dateHeureEmission": "2025-05-01T09:55:30.250+0000"
+      }
+    },
+    {
+      "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d9",
+      "rang": 3,
+      "cr": "0087",
+      "ci": "360003",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "horaireObserveArrivee": {
+        "dateHeure": "2025-05-01T10:50:30.000+0000",
+        "source": "BREHAT",
+        "dateHeureEmission": "2025-05-01T10:50:30.250+0000"
+      }
+    }
+  ],
+  "listeObservationService": [
+    {
+      "etatService": "OK",
+      "dateHeureDebutObservation": "",
+      "codeServiceCommercial": "BA",
+      "codeDeclinaisonService": "1",
+      "pointServiceObserve": {
+        "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d7"
+      },
+      "listeZoneFonctionnelle": [
+        {
+          "typeZone": "VOITURE",
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f4",
+          "rangPont": 1,
+          "rangVoiture": 1
+        },
+        {
+          "typeZone": "VOITURE",
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f5",
+          "rangPont": 1,
+          "rangVoiture": 2
+        }
+      ],
+      "listeMotif": [
+        {
+          "codeMotif": "BA-OK"
+        }
+      ]
+    },
+    {
+      "etatService": "KO",
+      "dateHeureDebutObservation": "2025-05-01T08:45:00.000+0000",
+      "codeServiceCommercial": "WF",
+      "codeDeclinaisonService": "N",
+      "pointServiceObserve": {
+        "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d7"
+      },
+      "listeZoneFonctionnelle": [
+        {
+          "typeZone": "VOITURE",
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f4",
+          "rangPont": 1,
+          "rangVoiture": 1
+        },
+        {
+          "typeZone": "VOITURE",
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f5",
+          "rangPont": 1,
+          "rangVoiture": 2
+        }
+      ],
+      "listeMotif": [
+        {
+          "codeMotif": "WF-KO"
+        },
+        {
+          "codeMotif": "WF-KO-PART"
+        }
+      ]
+    }
+  ]
+}

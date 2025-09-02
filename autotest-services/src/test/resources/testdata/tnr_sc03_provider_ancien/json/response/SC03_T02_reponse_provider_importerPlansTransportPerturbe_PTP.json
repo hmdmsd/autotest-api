@@ -1,0 +1,21 @@
+{
+  "codeMotif": "ALEAS",
+  "codeService": "A2025",
+  "codeTransporteurResponsable": "5G",
+  "coursesOK": [   {
+    "idImmuable": "2148:1187-F-140402-20251202",
+    "codeCompagnieTransporteur": "1187",
+    "identifiantCOTS": "9694d8fc-c38b-41fa-9671-edf358da66c8",
+    "indicateurFer": "FERRE",
+    "numeroCourse": "140402",
+    "dateReference": "2025-12-02"
+  }],
+  "coursesRejetees": [],
+  "dateApplication": "2025-12-02",
+  "dateHeureVersionPlanTransportPerturbe": "2025-08-01T15:00:12+0200",
+  "description": "Aléas du PTP",
+  "etat": "ACTIF",
+  "identifiantCOTS": "3db35ddd-5728-4a29-afab-073a5cc161b0",
+  "statutImport": "TERMINE",
+  "systemeCreateur": "2148"
+}

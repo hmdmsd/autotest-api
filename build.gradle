@@ -1,0 +1,59 @@
+plugins {
+    id 'sncf.mobilite.vpr.cots.project-conventions'
+}
+
+// ========================================================================= //
+description = 'SB Autotest Api Cots'
+// ========================================================================= //
+
+// Classification des modules Gradle
+def libraries = subprojects
+
+configure(libraries) { project ->
+
+    project.plugins.apply('sncf.mobilite.vpr.cots.java-configurations')
+
+    configurations {
+        implementation {
+            extendsFrom(apacheCommons)
+            extendsFrom(springCore)
+        }
+
+        annotationProcessor {
+            extendsFrom(lombok)
+            extendsFrom(mapstruct)
+        }
+
+        compileOnly {
+            extendsFrom(lombok)
+            extendsFrom(slf4j)
+        }
+
+        runtimeOnly {
+            extendsFrom(prometheus)
+            extendsFrom(log4j)
+        }
+
+        testAnnotationProcessor {
+            extendsFrom(mapstruct)
+        }
+
+        testImplementation {
+            extendsFrom(cucumber)
+            extendsFrom(junitTest5)
+        }
+    }
+
+}
+
+sonarqube {
+    properties {
+        property "sonar.language", "java"
+        property "sonar.projectName", "COTS autotest-api"
+        property "sonar.projectVersion", project.version
+        property "sonar.projectKey", "com.sncf.siv.cots:autotest-api"
+
+        property "sonar.coverage.jacoco.xmlReportPaths", "${buildDir}/reports/jacoco.xml"
+        property "sonar.coverage.exclusions", "**/*.xml, **/com/sncf/siv/cots/mq/model/**,**/sncf/mobilite/vpr/cots/notifier/configuration/**"
+    }
+}

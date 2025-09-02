@@ -1,0 +1,9 @@
+{
+  "extends": [
+    // héritage de la configuration du dépot : https://gitlab-repo-mob.apps.eul.sncf.fr/pf/vpr/03925/renovate-utils
+    "local>pf/vpr/03925/renovate-utils:app-java.json5",
+    "local>pf/vpr/03925/renovate-utils:docker.json5"
+  ],
+  // Activation des mises à jour pour Gradle & Docker
+  "enabledManagers": ["gradle", "dockerfile"]
+}

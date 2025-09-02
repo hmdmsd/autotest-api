@@ -1,0 +1,29 @@
+Configuration:
+  name: Default
+  status: warn
+
+  Appenders:
+    Console:
+      name: CONSOLE
+      target: SYSTEM_OUT
+      follow: true
+      PatternLayout:
+        Pattern: "%d{yyyy-MM-dd HH:mm:ss.SSS} %p %t %c{0} [CorrelationID: %X{CorrelationID}] %m%n"
+    File:
+      name: LOG_FILE
+      fileName: .\build\log\provider-api.log
+      PatternLayout:
+        Pattern: "%d{yyyy-MM-dd HH:mm:ss.SSS} %p %t %c{0} [CorrelationID: %X{CorrelationID}] %m%n"
+
+  Loggers:
+    Root:
+      level: info
+      AppenderRef:
+        - ref: CONSOLE
+        - ref: LOG_FILE
+    logger:
+      -
+        name: org.springframework
+        level: warn
+        AppenderRef:
+          - ref: CONSOLE

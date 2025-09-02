@@ -1,0 +1,112 @@
+[{
+  "@id": "eb832ca7-0031-4c2d-bf6d-515999eab679",
+  "codeCompagnieTransporteur": "1187",
+  "codeGrandeRegionResponsable": "0L",
+  "codeRelation": "904",
+  "codeService": "2025",
+  "codeSousRelation": "904100",
+  "codeTransporteurResponsable": "5A",
+  "codeTypeMoyenTransport": "5",
+  "commandeSillon": [],
+  "dateDebutService": "2024-12-15",
+  "dateDerniereModification": "2025-09-01T13:55:53.082+0200",
+  "dateDerniereModificationProducteur": "2025-02-27T09:50:05+0100",
+  "dateFinService": "2025-12-13",
+  "dateReference": "2025-12-02",
+  "estDiscontinue": false,
+  "estTechnique": true,
+  "etat": "ACTIVE",
+  "idCourseSA": "2148:253379943",
+  "identifiantDansSystemeCreateur": "253379943-20250301",
+  "idImmuable": "2148:1187-F-WN986-20250301",
+  "indicateurFer": "FERRE",
+  "listeAssemblageCourseAcheminante": [],
+  "listeCodeTransporteurAssocie": [],
+  "listeCourseUtilisantSillon": [],
+  "listeJourRegimeDApplication": [{"date": "2025-12-02"}],
+  "listeJourRegimeFacultatif": [],
+  "listePointDeParcours":    [
+    {
+      "@id": "c18273e2-1be1-4c85-a890-42b1944facb8",
+      "arretFacultatif": false,
+      "categorieStatistiqueDepart": "MVD",
+      "cr": "0087",
+      "ci": "471003",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionDepart":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": false,
+        "heureLocale": "22:28:00",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-12-02T22:28:00+0100",
+        "heureLocale": "22:28:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 1,
+      "rebroussement": false,
+      "typeArret": "CH"
+    },
+    {
+      "@id": "c821bcbd-6868-43ae-b1f7-305fea47d3cd",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "MVD",
+      "cr": "0087",
+      "ci": "474007",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionArrivee":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": false,
+        "heureLocale": "00:29:00",
+        "nbJoursPasseMinuit": -274
+      },
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-03-03T00:29:00+0100",
+        "heureLocale": "00:29:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": -274
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 2,
+      "rebroussement": false,
+      "typeArret": "CH"
+    }
+  ],
+  "listeService": [],
+  "listeSubstitutionCourse": [],
+  "listeUtilisationSillon": [   {
+    "identifiantSillon":       {
+      "numeroOperationnelSillon": "760401",
+      "sillonTTH": "221438070001"
+    },
+    "listeJourRegimeDApplication": [{"date": "2025-12-02"}],
+    "listeJourRegimeFacultatif": [],
+    "pointDebutUtilisationSillon": {"@id": "c18273e2-1be1-4c85-a890-42b1944facb8"},
+    "pointFinUtilisationSillon": {"@id": "c821bcbd-6868-43ae-b1f7-305fea47d3cd"},
+    "porteur": true,
+    "rangPRDebutUtilisationSillon": 1,
+    "decalagePasseMinuit": 0,
+    "rangPRFinUtilisationSillon": 40
+  }],
+  "numeroCourse": "WN986",
+  "statutSillonCourse": "HORAIRES_VALIDES",
+  "systemeCreateur": "2148",
+  "type": "COURSE_PTA",
+  "mode": "rail",
+  "sousMode": "highSpeedRail"
+}]

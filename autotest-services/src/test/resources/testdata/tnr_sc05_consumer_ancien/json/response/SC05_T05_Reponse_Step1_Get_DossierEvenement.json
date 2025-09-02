@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "eb233352-1982-4975-a7e0-0600cd77b0d7",
+    "systemeCreateur": "2148",
+    "identifiantDansSystemeCreateur": "5G-2026-08-31",
+    "codeService": "AVANCIAL",
+    "codeTransporteurResponsable": "5G",
+    "dateHeureDebutEvenement": "2026-08-31T00:00:00.000+0200",
+    "dateHeureFinEvenement": "2026-08-31T23:59:59.999+0200",
+    "dateHeureVersionDossierEvenement": "2025-08-25T16:55:41.000+0200",
+    "etat": "ACTIF",
+    "typeDossier": "PTP",
+    "listeCourse": [{"idImmuable": "2148:1187-F-9876-20260831"}],
+    "listeMotif": [      {
+      "description": "II",
+      "idMotifInterne": 101
+    }]
+  },
+  {
+    "@id": "fac67eca-49de-4ac6-b34a-793161d9879c",
+    "systemeCreateur": "2148",
+    "identifiantDansSystemeCreateur": "5T-2025-12-02",
+    "codeService": "A2025",
+    "codeTransporteurResponsable": "5T",
+    "dateHeureDebutEvenement": "2025-10-02T01:00:00.000+0200",
+    "dateHeureFinEvenement": "2026-12-02T23:59:59.999+0100",
+    "dateHeureVersionDossierEvenement": "2010-08-01T15:00:12.000+0200",
+    "etat": "ACTIF",
+    "typeDossier": "PTP",
+    "listeCourse": [{"idImmuable": "2148:1187-F-88865-20251130"}],
+    "listeMotif": [      {
+      "description": "AlÃ©as du PTP",
+      "idMotifInterne": 102
+    }]
+  }
+]

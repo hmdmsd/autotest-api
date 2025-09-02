@@ -1,0 +1,377 @@
+[
+  {
+    "@id": "0A4619B4-F25A-4F82-829E-19F046F39C5C",
+    "codeCompagnieTransporteur": "1187",
+    "codeService": "A2025",
+    "dateCirculation": "2025-11-28",
+    "codeTransporteurResponsable": "5A",
+    "dateDerniereModificationProducteur": "2025-01-24T18:44:32.000Z",
+    "etat": "ACTIVE",
+    "identifiantDansSystemeCreateur": "230105/1187_F/2025-11-28",
+    "idImmuable": "2148:1187-F-230105-2025-11-28",
+    "indicateurFer": "FERRE",
+    "listeCaracteristiqueDistribution": [
+      {
+        "@id": "F9A45B95-8F43-4EEB-A670-C4337347E039",
+        "code": "STO",
+        "listePropriete": [
+          {
+            "codePropriete": "statutOuverture",
+            "valeurPropriete": "RF"
+          }
+        ],
+        "type": "commercialisable"
+      },
+      {
+        "@id": "EFC5945E-3196-4112-A8E4-0BC62D42D5C5",
+        "code": "EO",
+        "listePropriete": [
+          {
+            "codePropriete": "entiteOffre",
+            "valeurPropriete": "01796"
+          }
+        ],
+        "type": "affectation"
+      },
+      {
+        "@id": "B6599E11-D11F-4525-9E49-92EA2E1C69DE",
+        "code": "SEG",
+        "listePropriete": [
+          {
+            "codePropriete": "idLigne",
+            "valeurPropriete": "FR:Line::3DCDF960-BA93-4443-899F-283A2A13B7FE:"
+          }
+        ],
+        "type": "ligne"
+      },
+      {
+        "@id": "FC2A4BC5-8598-4867-AFD3-1BB88B0CF919",
+        "code": "CCA",
+        "listePropriete": [],
+        "type": "ensemblePrestations"
+      },
+      {
+        "@id": "8790DCAF-015A-4FCD-936C-26FAAFD02522",
+        "code": "CCB",
+        "listePropriete": [],
+        "type": "ensemblePrestations"
+      },
+      {
+        "@id": "3822F838-CB41-4CB0-BF0B-40164C152A9E",
+        "code": "DI",
+        "listePropriete": [],
+        "type": "commercialisable"
+      },
+      {
+        "@id": "E00FC614-024C-470F-95AD-6D50EBA3F6BB",
+        "code": "NY",
+        "listePropriete": [],
+        "type": "ensemblePrestations"
+      },
+      {
+        "@id": "E7E114EF-84CC-4991-AE25-198EECAF5A27",
+        "code": "RS-O",
+        "listePropriete": [],
+        "type": "ensemblePrestations"
+      },
+      {
+        "@id": "00A03420-1D1B-4B42-B101-27F7162BEB2D",
+        "code": "VL",
+        "listePropriete": [],
+        "type": "serviceCommercial"
+      },
+      {
+        "@id": "E2752FF8-DE42-460D-9934-904EBF105AE5",
+        "code": "WF",
+        "listePropriete": [],
+        "type": "ensemblePrestations"
+      },
+      {
+        "@id": "132B5FB1-5E19-44AD-9D18-D81CA3FDA323",
+        "code": "DEDICADE",
+        "listePropriete": [
+          {
+            "codePropriete": "produitTarifaire",
+            "valeurPropriete": "PB"
+          }
+        ],
+        "type": "specialisation"
+      },
+      {
+        "@id": "AAA07B33-DFBD-4930-8ED6-DCE77020002B",
+        "code": "BA",
+        "listePropriete": [],
+        "type": "ensemblePrestations"
+      },
+      {
+        "@id": "F06F6727-9DF9-42EE-969D-FA899182540E",
+        "code": "MI",
+        "listePropriete": [],
+        "type": "commercialisable"
+      }
+    ],
+    "listeOffre": [
+      {
+        "@id": "92368DC9-863E-4442-9BA2-809556480836",
+        "codeOffre": "OV",
+        "listeProduitTarifairePredefini": [
+          {
+            "marqueProduitTarifaire": "IC"
+          }
+        ],
+        "proprieteOffre": {
+          "codeGestionnaireOffre": "30",
+          "codeInventaire": "ST",
+          "codeYieldManager": "ST"
+        }
+      }
+    ],
+    "listeParametreValidite": [
+      {
+        "caracteristiqueDistribution": {
+          "@id": "F9A45B95-8F43-4EEB-A670-C4337347E039"
+        },
+        "listeDroitAcces": [],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "EFC5945E-3196-4112-A8E4-0BC62D42D5C5"
+        },
+        "listeDroitAcces": [],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "B6599E11-D11F-4525-9E49-92EA2E1C69DE"
+        },
+        "listeDroitAcces": [],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "FC2A4BC5-8598-4867-AFD3-1BB88B0CF919"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT3",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "8790DCAF-015A-4FCD-936C-26FAAFD02522"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT4",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "3822F838-CB41-4CB0-BF0B-40164C152A9E"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT5",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "E00FC614-024C-470F-95AD-6D50EBA3F6BB"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT6",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "E7E114EF-84CC-4991-AE25-198EECAF5A27"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT7",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "00A03420-1D1B-4B42-B101-27F7162BEB2D"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "free",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "E2752FF8-DE42-460D-9934-904EBF105AE5"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT9",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "132B5FB1-5E19-44AD-9D18-D81CA3FDA323"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT10",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "segment": {
+          "destination": {
+            "@id": "314A1C66-B2A9-4331-8ECE-80AD1CC73A07"
+          },
+          "origine": {
+            "@id": "48FF8922-E3DF-4A95-8D95-C77B5E76F17D"
+          }
+        },
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "AAA07B33-DFBD-4930-8ED6-DCE77020002B"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT11",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [
+          {
+            "typeZone": "MATERIEL_ROULANT",
+            "rangVoiture": 1
+          }
+        ],
+        "segment": {
+          "destination": {
+            "@id": "314A1C66-B2A9-4331-8ECE-80AD1CC73A07"
+          },
+          "origine": {
+            "@id": "F26B1898-2C0C-4C18-BAE7-5F948C7CAEB8"
+          }
+        },
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "F06F6727-9DF9-42EE-969D-FA899182540E"
+        },
+        "listeDroitAcces": [
+          {
+            "baseTarification": "BT12",
+            "offre": {
+              "@id": "92368DC9-863E-4442-9BA2-809556480836"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [
+          {
+            "typeZone": "VOITURE",
+            "idMaterielRoulant": "92368DC9-863E-4442-9BA2-809556480555",
+            "idZoneFonctionnelle": "92368DC9-863E-4442-9BA2-809556480444",
+            "rangPont": 1
+          }
+        ],
+        "pointDeParcours": {
+          "@id": "F26B1898-2C0C-4C18-BAE7-5F948C7CAEB8"
+        },
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLePointDeParcours": "YCOMPRIS"
+      }
+    ],
+    "listePointDeParcours": [
+      {
+        "@id": "48FF8922-E3DF-4A95-8D95-C77B5E76F17D",
+        "cr": "0087",
+        "ci": "611004",
+        "ch": "BV",
+        "rebroussement": false
+      },
+      {
+        "@id": "314A1C66-B2A9-4331-8ECE-80AD1CC73A07",
+        "cr": "0087",
+        "ci": "547000",
+        "ch": "BV",
+        "rebroussement": false
+      },
+      {
+        "@id": "F26B1898-2C0C-4C18-BAE7-5F948C7CAEB8",
+        "cr": "0087",
+        "ci": "543017",
+        "ch": "BV",
+        "rebroussement": false
+      }
+    ],
+    "numeroCourse": "230105",
+    "systemeCreateur": "2148",
+    "type": "PTA",
+    "typeEquipement": "TJC"
+  }
+]

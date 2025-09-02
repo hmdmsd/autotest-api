@@ -1,0 +1,18 @@
+{
+  "codeService" : "A2025",
+  "codeTransporteurResponsable" : "5A",
+  "dateHeureDebutEvenement": "2025-12-25T00:00:00.000+0100",
+  "dateHeureFinEvenement": "2025-12-25T23:59:59.999+0100",
+  "dateHeureVersionDossierEvenement" : "2025-12-18T13:49:39.789+0100",
+  "etat" : "OUVERT",
+  "systemeCreateur" : "2148",
+  "identifiantDansSystemeCreateur" : "CU25SCN01T01",
+  "typeDossier": "PTP",
+  "listeCourse" : [],
+  "listeMotif" : [
+    {
+      "idMotifInterne" : 102,
+      "description" : "Grèves nationales annoncées"
+    }
+  ]
+}

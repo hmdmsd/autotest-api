@@ -1,0 +1,199 @@
+[{
+  "@id": "d377c2b5-252d-42cb-9bbc-818257c047db",
+  "codeCompagnieTransporteur": "1187",
+  "codeGrandeRegionResponsable": "0T",
+  "codeMarqueTransporteur": "OUIGO",
+  "codeRelation": "413",
+  "codeService": "A2025",
+  "codeTransporteurResponsable": "5T",
+  "codeTypeMoyenTransport": "0",
+  "commandeSillon": [],
+  "dateDebutService": "2024-12-15",
+  "dateDerniereModification": "2025-09-02T10:24:02.371+0200",
+  "dateDerniereModificationProducteur": "2021-12-23T23:00:00+0100",
+  "dateFinService": "2025-12-13",
+  "dateReference": "2025-11-30",
+  "estDiscontinue": false,
+  "estTechnique": false,
+  "etat": "ACTIVE",
+  "identifiantDansSystemeCreateur": "5d9d5678-7f84-424c-ae6c-e2c83154011f",
+  "idImmuable": "2148:1187-F-88865-20251130",
+  "indicateurFer": "FERRE",
+  "listeAssemblageCourseAcheminante": [],
+  "listeCodeTransporteurAssocie": [],
+  "listeCourseUtilisantSillon": [],
+  "listeJourRegimeDApplication": [{"date": "2025-11-30"}],
+  "listeJourRegimeFacultatif": [],
+  "listePointDeParcours":    [
+    {
+      "@id": "b6ed6ba2-a85c-4f42-b6b0-1aabc9080c52",
+      "arretFacultatif": false,
+      "categorieStatistiqueDepart": "AAA",
+      "cr": "0087",
+      "ci": "193003",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionDepart":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": false,
+        "heureLocale": "12:10:00",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-11-30T12:10:00+0100",
+        "heureLocale": "12:10:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 1,
+      "rebroussement": false,
+      "typeArret": "CH"
+    },
+    {
+      "@id": "2d6cd9e3-9a46-4381-b955-c0bb50c16292",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "AAA",
+      "categorieStatistiqueDepart": "BBB",
+      "cr": "0087",
+      "ci": "193250",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionArrivee":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": false,
+        "heureLocale": "12:20:00",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "horaireProductionDepart":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": false,
+        "heureLocale": "13:00:00",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-11-30T12:20:00+0100",
+        "heureLocale": "12:20:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-11-30T13:00:00+0100",
+        "heureLocale": "13:00:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 2,
+      "rebroussement": false,
+      "typeArret": "CH"
+    },
+    {
+      "@id": "3a8e94ea-055f-485b-9cd2-bf4b3b95f6ca",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "BBB",
+      "cr": "0087",
+      "ci": "193276",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/London",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionArrivee":          {
+        "idFuseauHoraire": "Europe/London",
+        "heureIncertaine": false,
+        "heureLocale": "11:16:30",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-11-30T12:16:30+0100",
+        "heureLocale": "11:16:30",
+        "idFuseauHoraire": "Europe/London",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculation": "CREATION"
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 3,
+      "rebroussement": true,
+      "typeArret": "CH"
+    }
+  ],
+  "listeService": [   {
+    "code": "CS01",
+    "listeJourRegimeDApplication": [{"date": "2025-11-30"}],
+    "listeJourRegimeFacultatif": [],
+    "listePropriete":       [
+      {
+        "code": "CP001",
+        "metaPropriete": {"@id": "95352652-200c-430b-8a94-3852677c91ea"},
+        "valeurChaine": "A"
+      },
+      {
+        "code": "CP002",
+        "metaPropriete": {"@id": "350d89f9-8667-4456-9186-765ce07ea238"},
+        "valeurChaine": "A"
+      }
+    ],
+    "metaService": {"@id": "590ecf63-8dcc-46d5-b238-391fd681eba1"},
+    "pointDeParcoursDebut": {"@id": "b6ed6ba2-a85c-4f42-b6b0-1aabc9080c52"},
+    "pointDeParcoursFin": {"@id": "3a8e94ea-055f-485b-9cd2-bf4b3b95f6ca"}
+  }],
+  "listeSubstitutionCourse": [],
+  "listeUtilisationSillon":    [
+    {
+      "identifiantSillon":          {
+        "numeroOperationnelSillon": "88865",
+        "sillonTTH": "065229888651"
+      },
+      "listeJourRegimeDApplication": [{"date": "2025-11-30"}],
+      "listeJourRegimeFacultatif": [],
+      "pointDebutUtilisationSillon": {"@id": "b6ed6ba2-a85c-4f42-b6b0-1aabc9080c52"},
+      "pointFinUtilisationSillon": {"@id": "2d6cd9e3-9a46-4381-b955-c0bb50c16292"},
+      "porteur": true,
+      "rangPRDebutUtilisationSillon": 1,
+      "decalagePasseMinuit": 0,
+      "rangPRFinUtilisationSillon": 20
+    },
+    {
+      "identifiantSillon":          {
+        "numeroOperationnelSillon": "88865",
+        "sillonTTH": "065229888652"
+      },
+      "listeJourRegimeDApplication": [{"date": "2025-11-30"}],
+      "listeJourRegimeFacultatif": [],
+      "pointDebutUtilisationSillon": {"@id": "2d6cd9e3-9a46-4381-b955-c0bb50c16292"},
+      "pointFinUtilisationSillon": {"@id": "3a8e94ea-055f-485b-9cd2-bf4b3b95f6ca"},
+      "porteur": true,
+      "rangPRDebutUtilisationSillon": 21,
+      "decalagePasseMinuit": 0,
+      "rangPRFinUtilisationSillon": 40
+    }
+  ],
+  "numeroCourse": "88865",
+  "statutSillonCourse": "NON_CONNU",
+  "systemeCreateur": "2148",
+  "type": "COURSE_PTP",
+  "impactPTP": "CREATION",
+  "codeMotif": "TRAVAUX",
+  "planTransportPerturbe": "fac67eca-49de-4ac6-b34a-793161d9879c",
+  "validePourDiffusion": true
+}]

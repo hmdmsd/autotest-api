@@ -1,0 +1,68 @@
+plugins {
+    id 'sncf.mobilite.vpr.cots.springboot-conventions'
+    id 'org.checkerframework' version '0.6.52'
+}
+
+description = 'Autotest Services'
+
+bootJar {
+    mainClass = "com.sncf.siv.cots.api.autotest.AutotestServer"
+}
+
+configurations {
+    implementation {
+        extendsFrom(aspectj)
+        extendsFrom(awsAuth)
+        extendsFrom(bootLoader)
+        extendsFrom(ibmMqSeries)
+        extendsFrom(jackson)
+        extendsFrom(jacksonData)
+        extendsFrom(jakarta8jaxb)
+        extendsFrom(jakartaAnnotation)
+        extendsFrom(jakartaValidation)
+        extendsFrom(jakartaJMS)
+        extendsFrom(junitTest5)
+        extendsFrom(log4j)
+        extendsFrom(mapstruct)
+        extendsFrom(rxjava)
+        extendsFrom(springBootCore)
+        extendsFrom(springBootRetry)
+        extendsFrom(springBootWeb)
+        extendsFrom(springCloud)
+        extendsFrom(springData)
+        extendsFrom(springDataMongo)
+        extendsFrom(springKafka)
+        extendsFrom(guava)
+        extendsFrom(mongoJavaServer)
+    }
+}
+
+dependencies {
+    // Cots-common-java
+    implementation(libs.cots.common)
+
+    // Socle-commun-java
+    implementation(libs.socle.commun.java)
+
+    // Api-commun
+    implementation(libs.api.common)
+    implementation(libs.api.common.stepdefinitions)
+    implementation(libs.api.definition)
+
+    // Cots-model
+    implementation(libs.cots.api.input.model)
+    implementation(libs.cots.api.input.output.model)
+    implementation(libs.cots.api.output.model)
+
+    // Cots-openAm
+    implementation(libs.openAm.common)
+    implementation(libs.openAm.stepdefinitions)
+    implementation(libs.openAm.tokenProvider.common)
+
+    // Cots-lib
+    // implementation(libs.cots.business)
+    // implementation(libs.cots.notification)
+    implementation(libs.cots.data)
+    implementation(libs.cots.data.domain)
+    implementation(libs.cots.data.stepdefinitions)
+}

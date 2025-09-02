@@ -1,0 +1,55 @@
+# Catalog sncf.mobilite.vpr.cots
+
+[versions]
+# Versions libs Cots
+cotscommonVer       = "9.3.2-SNAPSHOT"
+soclecommunVer      = "7.1.0-SNAPSHOT"
+cotsmodelVer        = "9.3.2-SNAPSHOT"
+cotsopenamVer       = "10.1.1-SNAPSHOT"
+cotsreplaymodelVer  = "9.1.1-SNAPSHOT"
+apicommunVer        = "9.3.2-SNAPSHOT"
+cotslibVer          = "9.3.3-SNAPSHOT"
+
+[libraries]
+# Definition des libs Cots
+# cots-common
+cots-common = { module = "sncf.mobilite.vpr.cots:cots-common", version.ref = "cotscommonVer" }
+
+# socle-commun
+socle-commun-java = { module = "sncf.mobilite.vpr.cots:socle-commun-java", version.ref = "soclecommunVer" }
+
+# cots-model
+cots-api-input-model = { module = "sncf.mobilite.vpr.cots:cots-api-input-model", version.ref = "cotsmodelVer" }
+cots-api-input-output-model = { module = "sncf.mobilite.vpr.cots:cots-api-input-output-model", version.ref = "cotsmodelVer" }
+cots-api-output-model = { module = "sncf.mobilite.vpr.cots:cots-api-output-model", version.ref = "cotsmodelVer" }
+
+# cots-openAm
+openAm-common = { module = "sncf.mobilite.vpr.cots:openAm-common", version.ref = "cotsopenamVer" }
+openAm-verifier = { module = "sncf.mobilite.vpr.cots:openAm-verifier", version.ref = "cotsopenamVer" }
+openAm-stepdefinitions = { module = "sncf.mobilite.vpr.cots:openAm-stepdefinitions", version.ref = "cotsopenamVer" }
+openAm-tokenProvider-common = { module = "sncf.mobilite.vpr.cots:openAm-tokenProvider-common", version.ref = "cotsopenamVer" }
+
+# cots-replay-model
+cots-replay-model = { module = "sncf.mobilite.vpr.cots:cots-replay-model", version.ref = "cotsreplaymodelVer" }
+
+# api-commun
+api-common = { module = "sncf.mobilite.vpr.cots:api-common", version.ref = "apicommunVer" }
+api-common-stepdefinitions = { module = "sncf.mobilite.vpr.cots:api-common-stepdefinitions", version.ref = "apicommunVer" }
+api-definition = { module = "sncf.mobilite.vpr.cots:api-definition", version.ref = "apicommunVer" }
+
+# cots-lib
+# cots-business = { module = "sncf.mobilite.vpr.cots:cots-business", version.ref = "cotslibVer" }
+# cots-notification = { module = "sncf.mobilite.vpr.cots:cots-notification", version.ref = "cotslibVer" }
+cots-data = { module = "sncf.mobilite.vpr.cots:cots-data", version.ref = "cotslibVer" }
+cots-data-domain = { module = "sncf.mobilite.vpr.cots:cots-data-domain", version.ref = "cotslibVer" }
+cots-data-stepdefinitions = { module = "sncf.mobilite.vpr.cots:cots-data-stepdefinitions", version.ref = "cotslibVer" }
+
+[bundles]
+# Ex: lib12bundle = ["lib1-name", "lib2-name"]
+
+[plugins]
+# Definition des plugins Gradle
+dependency = { id = "io.spring.dependency-management", version = "1.1.7" }
+grgit = { id = "org.ajoberstar.grgit", version = "4.1.1" }
+sonarqube = { id = "org.sonarqube", version = "4.4.1.3373" }
+release = { id = "net.researchgate.release", version = "2.8.1" }

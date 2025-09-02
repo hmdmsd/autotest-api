@@ -1,0 +1,17 @@
+{
+  "@id": "9825a0ea-0722-40bf-a40b-cd9f9e9dff4c",
+  "systemeCreateur": "2148",
+  "identifiantDansSystemeCreateur": "5D-2025-09-15",
+  "codeService": "A2025",
+  "codeTransporteurResponsable": "5D",
+  "dateHeureDebutEvenement": "2025-09-15T00:00:00.000+0200",
+  "dateHeureFinEvenement": "2025-09-15T23:59:59.999+0200",
+  "dateHeureVersionDossierEvenement": "2025-09-09T17:37:45.000+0200",
+  "etat": "OUVERT",
+  "typeDossier": "PTP",
+  "listeCourse": [],
+  "listeMotif": [   {
+    "description": "Arret Champagne 891016",
+    "idMotifInterne": 15
+  }]
+}

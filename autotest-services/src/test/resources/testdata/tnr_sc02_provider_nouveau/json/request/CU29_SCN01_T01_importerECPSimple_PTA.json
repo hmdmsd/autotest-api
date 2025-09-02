@@ -1,0 +1,217 @@
+[
+  {
+    "idImmuable" : "2148:1187-G-88865-20251130",
+    "codeCompagnieTransporteur" : "1187",
+    "codeMarqueTransporteur" : "TER",
+    "codeNatureMission" : "15",
+    "codeRelation" : "MN-09",
+    "codeService" : "A2025",
+    "codeSousRelation" : "77885",
+    "codeTransporteurResponsable" : "5A",
+    "complete" : true,
+    "dateCirculation" : "2027-11-30T01:00:00.000+0200",
+    "dateDerniereModificationProducteur" : "2021-12-18T18:50:00.000+0200",
+    "dateReference" : "2025-11-30T01:00:00.000+0200",
+    "estFacultatif" : false,
+    "etat" : "ACTIVE",
+    "idCourseSA" : "2148:19200288",
+    "identifiantDansSystemeCreateur" : "19200288-20251130",
+    "indicateurFer" : "FERRE",
+    "mode" : "FERRE",
+    "numeroCourse" : "88865",
+    "numeroCourseAssocie" : "TOTO",
+    "sousMode" : "Train régional",
+    "statutSillonCourse" : "HORAIRES_INCOMPLETS",
+    "systemeCreateur" : "2148",
+    "listeBesoinSillon" : [
+      {
+        "besoinSillonPorteur" : {
+          "identifiantDossierImmuable" : "AA233_322BB_333FOIOFJ",
+          "decalagePasseMinuit" : 0
+        }
+      }
+    ],
+    "listeCaracteristiqueProduction" : [
+      {
+        "@id" : "590ECF63-8DCC-46D5-B238-391FD681EBA1",
+        "code" : "CS01",
+        "listePropriete" : [
+          {
+            "@id" : "95352652-200C-430B-8A94-3852677C91EA",
+            "code" : "CP001",
+            "valeurChaine" : "A"
+          },
+          {
+            "@id" : "350D89F9-8667-4456-9186-765CE07EA238",
+            "code" : "CP002",
+            "valeurChaine" : "A"
+          }
+        ],
+        "pointDeParcoursDebut" : {
+          "@id" : "3A3AD926-BA01-4A42-9C36-B466774EC089"
+        },
+        "pointDeParcoursFin" : {
+          "@id" : "45C77658-1C86-425A-BC69-EC0455EA3545"
+        }
+      },
+      {
+        "@id" : "04E0D309-2160-4E43-A3DD-CC77A71D08DF",
+        "code" : "CS07",
+        "listePropriete" : [
+          {
+            "@id" : "AC85FA87-51E7-4D5B-ACA9-FCE61E9B5439",
+            "code" : "CP019",
+            "valeurChaine" : "A réservation"
+          }
+        ],
+        "pointDeParcoursDebut" : {
+          "@id" : "3A3AD926-BA01-4A42-9C36-B466774EC089"
+        },
+        "pointDeParcoursFin" : {
+          "@id" : "45C77658-1C86-425A-BC69-EC0455EA3545"
+        }
+      }
+    ],
+    "listeCodeTransporteurAssocie" : [
+      "REMY",
+      "CHRISTELLE",
+      "COTS"
+    ],
+    "listeCouplageCourse" : [
+
+    ],
+    "listeEvenement" : [
+
+    ],
+    "listeMoyenRemplacement" : [
+
+    ],
+    "listePointDeParcours" : [
+      {
+        "@id" : "3A3AD926-BA01-4A42-9C36-B466774EC089",
+        "arretFacultatif" : false,
+        "categorieStatistiqueDepart" : "AAA",
+        "cr" : "0087",
+        "ci" : "193003",
+        "ch" : "BV",
+        "horaireProductionDepart" : {
+          "heureIncertaine" : false,
+          "dateHeure" : "2025-11-30T13:08:00.000+0200"
+        },
+        "horaireVoyageurDepart" : {
+          "dateHeure" : "2025-11-30T13:08:00.000+0200"
+        },
+        "listeCourseDeRemplacementArrivee" : [
+
+        ],
+        "listeCourseDeRemplacementDepart" : [
+
+        ],
+        "listeHoraireProjeteArrivee" : [
+
+        ],
+        "listeHoraireProjeteDepart" : [
+
+        ],
+        "listeMotifArrivee" : [
+
+        ],
+        "listeMotifDepart" : [
+
+        ],
+        "rang" : 1,
+        "rebroussement" : false,
+        "timeZoneLocale" : "Europe/Paris",
+        "typeArret" : "CH"
+      },
+      {
+        "@id" : "67947F38-31EE-4F7B-BD25-9F465C5E35FB",
+        "arretFacultatif" : false,
+        "categorieStatistiqueArrivee" : "AAA",
+        "categorieStatistiqueDepart" : "BBB",
+        "cr" : "0087",
+        "ci" : "193250",
+        "ch" : "BV",
+        "horaireProductionArrivee" : {
+          "heureIncertaine" : false,
+          "dateHeure" : "2025-11-30T13:12:00.000+0200"
+        },
+        "horaireProductionDepart" : {
+          "heureIncertaine" : false,
+          "dateHeure" : "2025-11-30T13:13:00.000+0200"
+        },
+        "horaireVoyageurArrivee" : {
+          "dateHeure" : "2025-11-30T13:12:00.000+0200"
+        },
+        "horaireVoyageurDepart" : {
+          "dateHeure" : "2025-11-30T13:13:00.000+0200"
+        },
+        "listeCourseDeRemplacementArrivee" : [
+
+        ],
+        "listeCourseDeRemplacementDepart" : [
+
+        ],
+        "listeHoraireProjeteArrivee" : [
+
+        ],
+        "listeHoraireProjeteDepart" : [
+
+        ],
+        "listeMotifArrivee" : [
+
+        ],
+        "listeMotifDepart" : [
+
+        ],
+        "rang" : 2,
+        "rebroussement" : false,
+        "timeZoneLocale" : "Europe/Paris",
+        "typeArret" : "CH"
+      },
+      {
+        "@id" : "45C77658-1C86-425A-BC69-EC0455EA3545",
+        "arretFacultatif" : false,
+        "categorieStatistiqueArrivee" : "BBB",
+        "cr" : "0087",
+        "ci" : "193276",
+        "ch" : "00",
+        "horaireProductionArrivee" : {
+          "heureIncertaine" : false,
+          "dateHeure" : "2025-11-30T13:16:30.000+0200"
+        },
+        "horaireVoyageurArrivee" : {
+          "dateHeure" : "2025-11-30T13:16:30.000+0200"
+        },
+        "listeCourseDeRemplacementArrivee" : [
+
+        ],
+        "listeCourseDeRemplacementDepart" : [
+
+        ],
+        "listeHoraireProjeteArrivee" : [
+
+        ],
+        "listeHoraireProjeteDepart" : [
+
+        ],
+        "listeMotifArrivee" : [
+
+        ],
+        "listeMotifDepart" : [
+
+        ],
+        "rang" : 3,
+        "rebroussement" : false,
+        "timeZoneLocale" : "Europe/Paris",
+        "typeArret" : "CH"
+      }
+    ],
+    "listeSubstitutionCourse" : [
+      {
+        "idImmuable" : "2148:1187-F-8363-20251120"
+      }
+    ],
+    "listeUtilisationSillon" : []
+  }
+]

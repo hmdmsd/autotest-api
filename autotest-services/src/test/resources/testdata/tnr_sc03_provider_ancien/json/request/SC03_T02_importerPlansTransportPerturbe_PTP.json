@@ -1,0 +1,266 @@
+{
+  "dateApplication": "2025-12-02",
+  "etat": "ACTIF",
+  "codeService": "A2025",
+  "codeTransporteurResponsable": "5G",
+  "codeMotif": "ALEAS",
+  "description": "Aléas du PTP",
+  "dateHeureVersionPlanTransportPerturbe": "2025-08-01T15:00:12+0200",
+  "systemeCreateur": "2148",
+  "listeCoursesPTP": [
+    {
+      "impact": "CREATION",
+      "dateReference": "2025-12-02",
+      "idCourseSA": "2148:51435131",
+      "idImmuable": "2148:1187-F-140402-20251202",
+      "codeMotif": "ALEAS",
+      "codeCompagnieTransporteur": "1187",
+      "codeMarqueTransporteur": "TGV",
+      "codeRelation": "401",
+      "codeSousRelation": "401400",
+      "codeTypeMoyenTransport": "0",
+      "codeService": "A2025",
+      "listeCourseSubstitution": [],
+      "codeTransporteurResponsable": "5G",
+      "numeroCourse": "140402",
+      "dateDebutService": "2025-12-10",
+      "dateDerniereModificationProducteur": "2025-06-09T04:43:42+0000",
+      "dateFinService": "2025-12-14",
+      "estDiscontinue": false,
+      "estTechnique": false,
+      "systemeCreateur": "2148",
+      "identifiantDansSystemeCreateur": "140402-20251202",
+      "indicateurFer": "FERRE",
+      "etat": "ACTIVE",
+      "listeCodeTransporteurAssocie": [],
+      "listeJourRegimeDApplication": [
+        {
+          "date": "2025-12-02"
+        }
+      ],
+      "listePointDeParcours": [
+        {
+          "@id": "86f5f5d2-0e8b-4700-8daf-e476bc6f2dea",
+          "arretFacultatif": false,
+          "categorieStatistiqueDepart": "LVK",
+          "cr": "0087",
+          "ci": "478107",
+          "ch": "00",
+          "timeZoneLocale": "Europe/Paris",
+          "listeCourseDeRemplacementDepart": [],
+          "listeCourseDeRemplacementArrivee": [],
+          "horaireProductionDepart": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "06:07:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurDepart": {
+            "heureLocale": "06:07:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "listeHoraireProjeteArrivee": [],
+          "listeHoraireProjeteDepart": [],
+          "listeMotifArrivee": [],
+          "listeMotifDepart": [],
+          "rang": 1,
+          "rebroussement": false,
+          "typeArret": "CH"
+        },
+        {
+          "@id": "8079f9a7-8452-4a0f-90ed-38751b492128",
+          "arretFacultatif": false,
+          "categorieStatistiqueArrivee": "LVK",
+          "categorieStatistiqueDepart": "LVK",
+          "cr": "0087",
+          "ci": "478073",
+          "ch": "BV",
+          "timeZoneLocale": "Europe/Paris",
+          "listeCourseDeRemplacementDepart": [],
+          "listeCourseDeRemplacementArrivee": [],
+          "horaireProductionArrivee": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "06:20:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireProductionDepart": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "06:23:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurArrivee": {
+            "heureLocale": "06:20:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurDepart": {
+            "heureLocale": "06:23:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "listeHoraireProjeteArrivee": [],
+          "listeHoraireProjeteDepart": [],
+          "listeMotifArrivee": [],
+          "listeMotifDepart": [],
+          "rang": 2,
+          "rebroussement": false,
+          "typeArret": "CH"
+        },
+        {
+          "@id": "2828ce1e-e3fe-45b4-8a86-e754af1154c0",
+          "arretFacultatif": false,
+          "categorieStatistiqueArrivee": "LVK",
+          "categorieStatistiqueDepart": "LVK",
+          "cr": "0087",
+          "ci": "471003",
+          "ch": "BV",
+          "timeZoneLocale": "Europe/Paris",
+          "listeCourseDeRemplacementDepart": [],
+          "listeCourseDeRemplacementArrivee": [],
+          "horaireProductionArrivee": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "06:54:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireProductionDepart": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "07:00:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurArrivee": {
+            "heureLocale": "06:54:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurDepart": {
+            "heureLocale": "07:00:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "listeHoraireProjeteArrivee": [],
+          "listeHoraireProjeteDepart": [],
+          "listeMotifArrivee": [],
+          "listeMotifDepart": [],
+          "rang": 3,
+          "rebroussement": false,
+          "typeArret": "CH"
+        },
+        {
+          "@id": "abce6529-d3dd-4d8b-b078-04f79adbb651",
+          "arretFacultatif": false,
+          "categorieStatistiqueArrivee": "LVK",
+          "categorieStatistiqueDepart": "LVA",
+          "cr": "0087",
+          "ci": "396002",
+          "ch": "BV",
+          "timeZoneLocale": "Europe/Paris",
+          "listeCourseDeRemplacementDepart": [],
+          "listeCourseDeRemplacementArrivee": [],
+          "horaireProductionArrivee": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "07:45:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireProductionDepart": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "07:48:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurArrivee": {
+            "heureLocale": "07:45:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurDepart": {
+            "heureLocale": "07:48:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "listeHoraireProjeteArrivee": [],
+          "listeHoraireProjeteDepart": [],
+          "listeMotifArrivee": [],
+          "listeMotifDepart": [],
+          "rang": 4,
+          "rebroussement": false,
+          "typeArret": "CH"
+        },
+        {
+          "@id": "ee00a1c4-de8f-41bd-9ea5-60ada165a657",
+          "arretFacultatif": false,
+          "categorieStatistiqueArrivee": "LVA",
+          "cr": "0087",
+          "ci": "391003",
+          "ch": "BV",
+          "timeZoneLocale": "Europe/Paris",
+          "listeCourseDeRemplacementDepart": [],
+          "listeCourseDeRemplacementArrivee": [],
+          "horaireProductionArrivee": {
+            "idFuseauHoraire": "Europe/Paris",
+            "heureIncertaine": false,
+            "heureLocale": "08:45:00",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "horaireVoyageurArrivee": {
+            "heureLocale": "08:45:00",
+            "idFuseauHoraire": "Europe/Paris",
+            "nbJoursPasseMinuit": 0,
+            "statutCirculation": "CREATION"
+          },
+          "listeHoraireProjeteArrivee": [],
+          "listeHoraireProjeteDepart": [],
+          "listeMotifArrivee": [],
+          "listeMotifDepart": [],
+          "rang": 5,
+          "rebroussement": false,
+          "typeArret": "CH"
+        }
+      ],
+      "listeUtilisationSillon": [
+        {
+          "identifiantSillon": {
+            "numeroOperationnelSillon": "140401",
+            "sillonTTH": "220277780005"
+          },
+          "listeJourRegimeDApplication": [
+            {
+              "date": "2025-12-02"
+            }
+          ],
+          "listeJourRegimeFacultatif": [],
+          "pointDebutUtilisationSillon": {
+            "rang": "1"
+          },
+          "pointFinUtilisationSillon": {
+            "rang": "5"
+          },
+          "porteur": true,
+          "rangPRDebutUtilisationSillon": 1,
+          "decalagePasseMinuit": 0,
+          "rangPRFinUtilisationSillon": 19
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "id généré",
+    "codeCompagnieTransporteur": "1187",
+    "codeService": "A2024",
+    "dateCirculation": "2024-12-24",
+    "codeTransporteurResponsable": "4A",
+    "dateDerniereModification": "Date/heure courante",
+    "dateDerniereModificationProducteur": "2024-06-04T11:40:41",
+    "etat": "ACTIVE",
+    "identifiantDansSystemeCreateur": "240101/1187_FERRE/2024-12-24",
+    "idImmuable": "2148:1187-F-240101-2024-12-24",
+    "indicateurFer": "FERRE",
+    "listeCaracteristiqueDistribution": [
+      {
+        "@id": "F9FC2DEA-58CB-49CE-92BB-093C82E4D39B",
+        "code": "STO",
+        "listePropriete": [
+          {
+            "codePropriete": "statutOuverture",
+            "valeurPropriete": "H"
+          }
+        ],
+        "type": "COMMERCIALISABLE"
+      },
+      {
+        "@id": "ADC3615C-7719-491B-82FC-D2E6533ED9EC",
+        "code": "SEG",
+        "listePropriete": [
+          {
+            "codePropriete": "idLigne",
+            "valeurPropriete": "FR:Line::9a389d3e-5e46-456a-bb0c-d67842aae6ac:"
+          }
+        ],
+        "type": "LIGNE"
+      },
+      {
+        "@id": "0681F938-97FF-4134-A0FA-B191E4F6F61D",
+        "code": "PRESA-0",
+        "listePropriete": [],
+        "type": "ENSEMBLE_PRESTATIONS"
+      },
+      {
+        "@id": "D44CA498-E5FB-416A-A2DD-8E23C3E1E38A",
+        "code": "PRESA-1",
+        "listePropriete": [],
+        "type": "ENSEMBLE_PRESTATIONS"
+      },
+      {
+        "@id": "84F16F9D-3D65-4257-8E6E-2A780522506B",
+        "code": "PRESA-2",
+        "listePropriete": [],
+        "type": "ENSEMBLE_PRESTATIONS"
+      },
+      {
+        "@id": "2E0E8291-A12F-4D37-9802-99F8AE493016",
+        "code": "CCB",
+        "listePropriete": [],
+        "type": "ENSEMBLE_PRESTATIONS"
+      }
+    ],
+    "listeOffre": [
+      {
+        "@id": "90144331-759C-48DB-9749-A6ED6E4981BF",
+        "codeOffre": "TER",
+        "listeProduitTarifairePredefini": [
+          {
+            "marqueProduitTarifaire": "TER"
+          }
+        ],
+        "proprieteOffre": {
+          "codeGestionnaireOffre": "1187"
+        }
+      }
+    ],
+    "listeParametreValidite": [
+      {
+        "caracteristiqueDistribution": {
+          "@id": "F9FC2DEA-58CB-49CE-92BB-093C82E4D39B"
+        },
+        "listeDroitAcces": [],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "ADC3615C-7719-491B-82FC-D2E6533ED9EC"
+        },
+        "listeDroitAcces": [],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "'YCOMPRIS",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "84F16F9D-3D65-4257-8E6E-2A780522506B"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "@id": "90144331-759C-48DB-9749-A6ED6E4981BF"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "'SAUF",
+        "surLeSegment": "TOUS"
+      },
+      {
+        "caracteristiqueDistribution": {
+          "@id": "2E0E8291-A12F-4D37-9802-99F8AE493016"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "@id": "90144331-759C-48DB-9749-A6ED6E4981BF"
+            }
+          }
+        ],
+        "listeZoneFonctionnelle": [],
+        "surLaZoneFonctionnelle": "TOUS",
+        "surLeSegment": "TOUS"
+      }
+    ],
+    "listePointDeParcours": [],
+    "numeroCourse": "240101",
+    "systemeCreateur": "2148",
+    "type": "PTA",
+    "typeEquipement": "TGV"
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "codeCompagnieTransporteur": "1187",
+  "codeService": "2025",
+  "codeTransporteurResponsable": "1F",
+  "dateCirculation": "2025-12-31",
+  "dateDerniereModification": "2025-07-10T10:29:32.701+0200",
+  "dateDerniereModificationProducteur": "2025-12-31T09:50:30.250+0100",
+  "dateReference": "2025-12-31",
+  "estTechnique": false,
+  "etat": "ACTIVE",
+  "identifiantDansSystemeCreateur": "CU22SC02T01-2025-12-31",
+  "idImmuable": "2148:CU22SC02T01-F-1187-2025-12-31",
+  "indicateurFer": "FERRE",
+  "listeObservationService":    [
+    {
+      "codeDeclinaisonService": "1",
+      "codeServiceCommercial": "BA",
+      "dateHeureDebutObservation": "2025-12-31T09:45:00.000+0100",
+      "etatService": "OK",
+      "listeMotif": [{"codeMotif": "BA-OK"}],
+      "listeZoneFonctionnelle":          [
+        {
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f4",
+          "rangPont": 1,
+          "rangVoiture": 1,
+          "typeZone": "VOITURE"
+        },
+        {
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f5",
+          "rangPont": 1,
+          "rangVoiture": 2,
+          "typeZone": "VOITURE"
+        }
+      ],
+      "pointServiceObserve": {"@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d7"}
+    },
+    {
+      "codeDeclinaisonService": "N",
+      "codeServiceCommercial": "WF",
+      "dateHeureDebutObservation": "2025-12-31T09:45:00.000+0100",
+      "etatService": "KO",
+      "listeMotif":          [
+        {"codeMotif": "WF-KO"},
+        {"codeMotif": "WF-KO-PART"}
+      ],
+      "listeZoneFonctionnelle":          [
+        {
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f4",
+          "rangPont": 1,
+          "rangVoiture": 1,
+          "typeZone": "VOITURE"
+        },
+        {
+          "idMaterielRoulant": "sncf:MR:006240e4-8c78-4253-b0fa-fa9ba531a47b",
+          "idZoneFonctionnelle": "sncf:ZF:008c4e24-c6cc-43e1-8d9d-ad3bba6933f5",
+          "rangPont": 1,
+          "rangVoiture": 2,
+          "typeZone": "VOITURE"
+        }
+      ],
+      "pointServiceObserve": {"@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d7"}
+    }
+  ],
+  "listePointDeParcours":    [
+    {
+      "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d7",
+      "ch": "BV",
+      "ci": "360003",
+      "cr": "0087",
+      "horaireObserveDepart":          {
+        "dateHeure": "2025-12-31T09:50:30.000+0100",
+        "dateHeureEmission": "2025-12-31T09:50:30.250+0100",
+        "source": "BREHAT"
+      },
+      "rang": 1,
+      "timeZoneLocale": "Europe/Paris"
+    },
+    {
+      "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d8",
+      "ch": "BV",
+      "ci": "360004",
+      "cr": "0087",
+      "horaireObserveArrivee":          {
+        "dateHeure": "2025-12-31T10:50:30.000+0100",
+        "dateHeureEmission": "2025-12-31T10:50:30.250+0100",
+        "source": "BREHAT"
+      },
+      "horaireObserveDepart":          {
+        "dateHeure": "2025-12-31T10:55:30.000+0100",
+        "dateHeureEmission": "2025-12-31T10:55:30.250+0100",
+        "source": "BREHAT"
+      },
+      "rang": 2,
+      "timeZoneLocale": "Europe/Paris"
+    },
+    {
+      "@id": "1c6268eb-8bbb-430e-9abe-c79e0ae234d9",
+      "ch": "BV",
+      "ci": "360003",
+      "cr": "0087",
+      "horaireObserveArrivee":          {
+        "dateHeure": "2025-12-31T11:50:30.000+0100",
+        "dateHeureEmission": "2025-12-31T11:50:30.250+0100",
+        "source": "BREHAT"
+      },
+      "rang": 3,
+      "timeZoneLocale": "Europe/Paris"
+    }
+  ],
+  "numeroCourse": "CU22SC02T01",
+  "systemeCreateur": "2148"
+}

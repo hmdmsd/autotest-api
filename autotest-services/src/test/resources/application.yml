@@ -1,0 +1,125 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+  security:
+    # utilisateur pour la basic auth
+    user:
+      name: client
+      password: achanger
+  data:
+    mongodb:
+      uri: mongodb://dev_user:dev_pass@slnxsncfcots10.marc.fr.ssg:27018/devDate
+
+management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include: health,info,env,beans
+  health:
+    jms:
+      enabled: false
+
+eureka:
+  client:
+    enabled: false
+    username: username
+    password: password
+
+mongo:
+  connectionString: "mongodb://dev_user:dev_pass@slnxsncfcots10.marc.fr.ssg:27018/devDate"
+  database: devDate
+  description: "autotest-api"
+
+openAm:
+  tokens:
+    subject: COTS_Administrateur
+    issuer: cots
+    algorithm: RSA
+    signatureAlgo: RS512
+    privateKeyPath: key.der
+    testMode: true
+
+security:
+  activated: true
+  openAm:
+    jwk:
+      uri: https://idp-dev.sncf.fr/openam/oauth2/M2M/connect/jwk_uri
+      connectionTimeOut: 1000
+      readTimeOut: 5000
+      refreshInterval: 25
+    checkOpenAmToken: 1
+    api:
+      baseUrl: "https://idp-dev.sncf.fr"
+      username: "COTS"
+      password: "AJwPvTz2kkO9FwY6ohCc"
+      proxy:
+        host: ntes.proxy.corp.sopra
+        port: 8080
+  open-am:
+    app:
+      timeBetweenCheck: 5000
+      tokenExpirationOffset: 120000
+      backoff:
+        multiplier: 2
+        maximum: 60000
+      user:
+        name: COTS_Account
+        password: "KxqEd3eGBq%5"
+      scope: "openid roles"
+  profiles:
+    cots_administrateurs:
+      - COURSE_WRITE
+      - COURSE_READ
+      - JOB_READ
+      - EXPORT_READ
+      - JOB_WRITE
+      - CATALOG_READ
+      - CATALOG_WRITE
+      - CATALOG_METASERVICE_CREATE
+      - CATALOG_METAPROPRIETE_CREATE
+      - CATALOG_VALEUR_PROPRIETE_CREATE
+      - CATALOG_METASERVICE_UPDATE
+      - CATALOG_METAPROPRIETE_UPDATE
+      - CATALOG_VALEUR_PROPRIETE_UPDATE
+      - REPLAY
+      - SUPER_CONSUMER
+
+shogun:
+  expiredJobTime: 10
+
+arrondiretard.refreshCacheCron: "0 0 12 * * *"
+
+lock:
+  expirationDelay: 300
+  retry:
+    nbTentatives: 3
+    delayBetween:
+      fixedInterval: 100
+      randomOffset: 400
+
+webapp:
+  security:
+    api-prefix: "/api"
+
+cots:
+  api:
+    catalog:
+      baseUrl: http://localhost:8281/api/catalogue
+    consumer:
+      baseUrl: http://localhost:8282/api
+    job:
+      baseUrl: http://localhost:8283/job-api
+    openam:
+      baseUrl: http://localhost:8284/api
+    provider:
+      baseUrl: http://localhost:8285/api
+    octopus:
+      baseUrl: http://localhost:8286/api
+    notifier:
+      baseUrl: http://localhost:8287/api
+    autotest:
+      baseUrl: http://localhost:8288/api
+    replayer:
+      baseUrl: http://localhost:8289/api

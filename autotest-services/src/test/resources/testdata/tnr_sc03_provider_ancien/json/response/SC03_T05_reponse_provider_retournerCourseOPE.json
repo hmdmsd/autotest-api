@@ -1,0 +1,215 @@
+[{
+  "@id": "4cb0bbfd-e62d-49ff-98d8-288684878812",
+  "codeCompagnieTransporteur": "1187",
+  "codeMarqueTransporteur": "TGV",
+  "codeRelation": "411",
+  "codeService": "A2025",
+  "codeSousRelation": "411300",
+  "codeTransporteurResponsable": "1A",
+  "codeTypeMoyenTransport": "0",
+  "coursePTA": {"@id": "3b4120c8-06c0-46ad-9912-dc0a3b258673"},
+  "dateDebutService": "2024-12-15",
+  "dateDerniereModification": "2025-07-08T16:48:24.624+0200",
+  "dateDerniereModificationProducteur": "2025-07-08T16:48:24+0200",
+  "dateFinService": "2025-12-13",
+  "dateReference": "2025-11-10",
+  "estDiscontinue": false,
+  "estTechnique": false,
+  "etat": "ACTIVE",
+  "idCourseSA": "2148:234077844",
+  "idImmuable": "2148:1187-F-8824-20251110",
+  "idVersion": "0356e984-5d57-495e-868c-98b8eabc7fde",
+  "identifiantDansSystemeCreateur": "4cb0bbfd-e62d-49ff-98d8-288684878812",
+  "indicateurFer": "FERRE",
+  "listeCouplageCourseOPE": [],
+  "listeMoyenRemplacementOPE": [],
+  "listeCodeTransporteurAssocie": [],
+  "listeEvenement": [],
+  "listeJourRegimeDApplication": [{"date": "2025-11-10"}],
+  "listeJourRegimeFacultatif": [],
+  "listeMotif": [],
+  "listePointDeParcours":    [
+    {
+      "@id": "4538c7b8-4641-4b1a-bc3d-845630736c35",
+      "arretFacultatif": false,
+      "categorieStatistiqueDepart": "LVA",
+      "cr": "0087",
+      "ci": "481002",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionDepart":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": true,
+        "heureLocale": "19:01:00",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-11-10T19:01:00+0100",
+        "heureLocale": "19:01:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 1,
+      "rebroussement": false,
+      "typeArret": "CH"
+    },
+    {
+      "@id": "4e453290-b0be-4a35-8d90-6a9dfe16b29c",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "LVA",
+      "categorieStatistiqueDepart": "LVA",
+      "cr": "0087",
+      "ci": "481192",
+      "ch": "00",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionArrivee":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": true,
+        "heureLocale": "19:18:30",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireProductionDepart":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": true,
+        "heureLocale": "19:21:00",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-11-10T19:18:30+0100",
+        "heureLocale": "19:18:30",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-11-10T19:21:00+0100",
+        "heureLocale": "19:21:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 2,
+      "rebroussement": false,
+      "typeArret": "CH"
+    },
+    {
+      "@id": "b1f46dc0-073c-4ded-abdc-2215ee599165",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "LVA",
+      "categorieStatistiqueDepart": "LVA",
+      "cr": "0087",
+      "ci": "484006",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionArrivee":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": true,
+        "heureLocale": "19:42:00",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireProductionDepart":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": true,
+        "heureLocale": "19:45:00",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-11-10T19:42:00+0100",
+        "heureLocale": "19:42:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-11-10T19:45:00+0100",
+        "heureLocale": "19:45:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 3,
+      "rebroussement": false,
+      "typeArret": "CH"
+    },
+    {
+      "@id": "fc818dbe-3df8-46fe-850f-82355b6b93e3",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "LVA",
+      "cr": "0087",
+      "ci": "391003",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireProductionArrivee":          {
+        "idFuseauHoraire": "Europe/Paris",
+        "heureIncertaine": true,
+        "heureLocale": "21:09:00",
+        "nbJoursPasseMinuit": 0
+      },
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-11-10T21:09:00+0100",
+        "heureLocale": "21:09:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 4,
+      "rebroussement": false,
+      "typeArret": "CH"
+    }
+  ],
+  "listeService":    [
+    {
+      "code": "CS01",
+      "listeJourRegimeDApplication": [{"date": "2025-11-10"}],
+      "listeJourRegimeFacultatif": [],
+      "listePropriete": [         {
+        "code": "CP001",
+        "metaPropriete": {"@id": "95352652-200c-430b-8a94-3852677c91ea"},
+        "valeurChaine": "A"
+      }],
+      "metaService": {"@id": "590ecf63-8dcc-46d5-b238-391fd681eba1"},
+      "pointDeParcoursDebut": {"@id": "4538c7b8-4641-4b1a-bc3d-845630736c35"},
+      "pointDeParcoursFin": {"@id": "fc818dbe-3df8-46fe-850f-82355b6b93e3"}
+    },
+    {
+      "code": "CS07",
+      "listeJourRegimeDApplication": [{"date": "2025-11-10"}],
+      "listeJourRegimeFacultatif": [],
+      "listePropriete": [         {
+        "code": "CP019",
+        "metaPropriete": {"@id": "ac85fa87-51e7-4d5b-aca9-fce61e9b5439"},
+        "valeurChaine": "A rÃ©servation"
+      }],
+      "metaService": {"@id": "04e0d309-2160-4e43-a3dd-cc77a71d08df"},
+      "pointDeParcoursDebut": {"@id": "4538c7b8-4641-4b1a-bc3d-845630736c35"},
+      "pointDeParcoursFin": {"@id": "fc818dbe-3df8-46fe-850f-82355b6b93e3"}
+    }
+  ],
+  "listeSubstitutionCourse": [],
+  "listeUtilisationSillon": [],
+  "numeroCourse": "8824",
+  "statutSillonCourse": "A_COMMANDER",
+  "systemeCreateur": "2148",
+  "type": "COURSE_OPE",
+  "mode": "rail",
+  "sousMode": "highSpeedRail"
+}]

@@ -1,0 +1,232 @@
+[{
+    "idImmuable": "2849:20250318-0001",
+    "type": "COURSE_OPE",
+    "codeCompagnieTransporteur": "1187",
+    "codeMarqueTransporteur": "TER",
+    "codeNatureMission": "15",
+    "codeRelation": "MN-01",
+    "codeService": "2025",
+    "codeSousRelation": "10001",
+    "codeTransporteurResponsable": "4T",
+    "dateCirculation": "2025-12-02",
+    "dateDerniereModification": "2025-08-05T10:24:53.433+0200",
+    "dateDerniereModificationProducteur": "2021-06-14T14:04:04.000+0200",
+    "dateReference": "2025-12-02",
+    "estDiscontinue": false,
+    "estFacultatif": false,
+    "estTechnique": true,
+    "estimationManuelle": false,
+    "etat": "ACTIVE",
+    "idDerniereAdaptation": "idDerniereAdaptation11999-002",
+    "identifiantDansSystemeCreateur": "idTTR999",
+    "idMotifInterneReference": 101,
+    "impactEvenement": "CREATION",
+    "indicateurFer": "FERRE",
+    "numeroCourse": "11999",
+    "numeroCourseAssocie": "11999",
+    "statutSillonCourse": "NON_CONNU",
+    "systemeCreateur": "TTR",
+    "listeBesoinSillon": [],
+    "listeCaracteristiqueProduction": [],
+    "listeCodeTransporteurAssocie":    [
+        "CODETR1",
+        "CODETR2",
+        "CODETR3"
+    ],
+    "listeCouplageCourse": [],
+    "listeEvenement":    [
+        {
+            "dateHeureCreation": "2021-03-29T08:43:50.000+0200",
+            "identifiantDansSystemeCreateur": "idTTR999Evt001",
+            "systemeCreateur": "TTR",
+            "libelle": "EvÃ¨nement 1",
+            "lieu":          {
+                "ch": "00",
+                "ci": "123456",
+                "cr": "0087"
+            },
+            "listeMotif":          [
+                {
+                    "dateHeureDeclaration": "2021-03-29T08:44:02.000+0200",
+                    "idMotifInterne": 58,
+                    "source": "COS"
+                },
+                {
+                    "dateHeureDeclaration": "2021-03-29T08:44:03.000+0200",
+                    "idMotifInterne": 114,
+                    "source": "ESCALE"
+                }
+            ]
+        },
+        {
+            "dateHeureCreation": "2021-03-29T08:44:50.000+0200",
+            "identifiantDansSystemeCreateur": "idTTR999Evt002",
+            "systemeCreateur": "TTR",
+            "libelle": "EvÃ¨nement 2",
+            "lieu":          {
+                "ch": "00",
+                "ci": "123456",
+                "cr": "0087"
+            },
+            "listeMotif":          [
+                {
+                    "dateHeureDeclaration": "2021-03-29T08:44:02.000+0200",
+                    "idMotifInterne": 58,
+                    "source": "COS"
+                },
+                {
+                    "dateHeureDeclaration": "2021-03-29T08:44:03.000+0200",
+                    "idMotifInterne": 114,
+                    "source": "ESCALE"
+                }
+            ]
+        }
+    ],
+    "listeMotif":    [
+        {
+            "dateHeureDeclaration": "2021-03-29T08:44:02.000+0200",
+            "idMotifInterne": 58,
+            "source": "COS"
+        },
+        {
+            "dateHeureDeclaration": "2021-03-29T08:44:03.000+0200",
+            "idMotifInterne": 114,
+            "source": "ESCALE"
+        }
+    ],
+    "listeMoyenRemplacement": [],
+    "listePointDeParcours":    [
+        {
+            "@id": "3b5feece-2861-4d1c-9967-956644103d39",
+            "arretFacultatif": false,
+            "categorieStatistiqueDepart": "AAA",
+            "cr": "0087",
+            "ci": "193010",
+            "ch": "BV",
+            "idMotifInterneDepartReference": "58",
+            "horaireObserveDepart":          {
+                "dateHeure": "2025-12-02T23:19:00.000+0100",
+                "dateHeureEmission": "2025-12-02T23:19:00.000+0100",
+                "source": "BREHAT"
+            },
+            "horaireVoyageurDepart":          {
+                "dateHeure": "2025-12-02T23:17:00.000+0100",
+                "statutCirculationOPE": "CREATION"
+            },
+            "rang": 1,
+            "rebroussement": true,
+            "timeZoneLocale": "Europe/London",
+            "typeArret": "CH",
+            "listeCourseDeRemplacementArrivee": [],
+            "listeCourseDeRemplacementDepart": [],
+            "listeHoraireProjeteArrivee": [],
+            "listeHoraireProjeteDepart": [],
+            "listeMotifArrivee": [],
+            "listeMotifDepart":          [
+                {
+                    "dateHeureDeclaration": "2021-12-02T13:07:00.000+0100",
+                    "idMotifInterne": 58,
+                    "source": "COS"
+                },
+                {
+                    "dateHeureDeclaration": "2021-12-02T13:10:00.000+0100",
+                    "idMotifInterne": 114,
+                    "source": "ESCALE"
+                }
+            ]
+        },
+        {
+            "@id": "37088907-b2c6-4c61-af77-29dd55a0f8c7",
+            "arretFacultatif": false,
+            "categorieStatistiqueArrivee": "AAA",
+            "categorieStatistiqueDepart": "BBB",
+            "cr": "0087",
+            "ci": "193251",
+            "ch": "BV",
+            "horaireObserveArrivee":          {
+                "dateHeure": "2025-12-02T23:53:00.000+0100",
+                "dateHeureEmission": "2025-12-02T23:53:00.000+0100",
+                "source": "BREHAT"
+            },
+            "horaireObserveDepart":          {
+                "dateHeure": "2025-12-03T01:05:00.000+0100",
+                "dateHeureEmission": "2025-12-03T01:05:00.000+0100",
+                "source": "BREHAT"
+            },
+            "horaireVoyageurArrivee":          {
+                "dateHeure": "2025-12-02T23:51:00.000+0100",
+                "statutCirculationOPE": "CREATION"
+            },
+            "horaireVoyageurDepart":          {
+                "dateHeure": "2025-12-03T01:04:00.000+0100",
+                "statutCirculationOPE": "CREATION"
+            },
+            "rang": 2,
+            "rebroussement": false,
+            "sourceHoraireProjeteArriveeReference": "ESCALE",
+            "sourceHoraireProjeteDepartReference": "COS",
+            "timeZoneLocale": "Europe/Paris",
+            "typeArret": "CH",
+            "listeCourseDeRemplacementArrivee": [],
+            "listeCourseDeRemplacementDepart": [],
+            "listeHoraireProjeteArrivee": [],
+            "listeHoraireProjeteDepart": [],
+            "listeMotifArrivee": [],
+            "listeMotifDepart": []
+        },
+        {
+            "@id": "930ad574-9f34-4f4e-83aa-e50f117b9d8b",
+            "arretFacultatif": false,
+            "categorieStatistiqueArrivee": "BBB",
+            "cr": "0087",
+            "ci": "193277",
+            "ch": "00",
+            "horaireObserveArrivee":          {
+                "dateHeure": "2025-12-03T01:19:30.000+0100",
+                "dateHeureEmission": "2025-12-03T01:19:30.000+0100",
+                "source": "BREHAT"
+            },
+            "horaireVoyageurArrivee":          {
+                "dateHeure": "2025-12-03T01:17:30.000+0100",
+                "statutCirculationOPE": "CREATION"
+            },
+            "rang": 3,
+            "rebroussement": false,
+            "timeZoneLocale": "Europe/Paris",
+            "typeArret": "CH",
+            "listeCourseDeRemplacementArrivee": [],
+            "listeCourseDeRemplacementDepart": [],
+            "listeHoraireProjeteArrivee": [],
+            "listeHoraireProjeteDepart": [],
+            "listeMotifArrivee": [],
+            "listeMotifDepart": []
+        }
+    ],
+    "listeSubstitutionCourse": [],
+    "listeUtilisationSillon":    [
+        {
+            "decalagePasseMinuit": 0,
+            "identifiantSillon":          {
+                "numeroOperationnelSillon": "11999",
+                "sillonTTH": "065229599991"
+            },
+            "pointDebutUtilisationSillon": {"@id": "3b5feece-2861-4d1c-9967-956644103d39"},
+            "pointFinUtilisationSillon": {"@id": "37088907-b2c6-4c61-af77-29dd55a0f8c7"},
+            "porteur": true,
+            "rangPRDebutUtilisationSillon": 1,
+            "rangPRFinUtilisationSillon": 150
+        },
+        {
+            "decalagePasseMinuit": 0,
+            "identifiantSillon":          {
+                "numeroOperationnelSillon": "11999-11931",
+                "sillonTTH": "065229599992"
+            },
+            "pointDebutUtilisationSillon": {"@id": "37088907-b2c6-4c61-af77-29dd55a0f8c7"},
+            "pointFinUtilisationSillon": {"@id": "930ad574-9f34-4f4e-83aa-e50f117b9d8b"},
+            "porteur": true,
+            "rangPRDebutUtilisationSillon": 151,
+            "rangPRFinUtilisationSillon": 200
+        }
+    ]
+}]

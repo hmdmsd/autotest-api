@@ -1,0 +1,155 @@
+[{
+  "@id": "fa89afcc-a860-4b3f-82df-df64430ca9aa",
+  "idImmuable": "2148:1187-F-WN999-20251223",
+  "codeTransporteurResponsable": "1187",
+  "codeService": "A2025",
+  "dateDerniereModification": "2025-09-01T16:10:48+0200",
+  "dateDerniereModificationProducteur": "2025-06-30T17:00:00+0200",
+  "entiteOffre": "22898",
+  "etat": "ACTIVE",
+  "identifiantDansSystemeCreateur": "081701/1187_FERRE/2015-12-17",
+  "indicateurInterSecteur": false,
+  "jourCirculationFacultatif": false,
+  "listeJourCirculation": [{"date": "2025-12-23"}],
+  "listeOffre": [   {
+    "@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+    "codeOffre": "TER",
+    "proprieteOffre": {"codeGestionnaireOffre": "1187"},
+    "referenceImport": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+    "listeProduitTarifairePredefini": [{"marqueProduitTarifaire": "TER"}]
+  }],
+  "listeParametreValidite":    [
+    {
+      "groupeService":          {
+        "@id": "0f3c12d5-144d-4205-8b66-3d33867e664e",
+        "referenceImport": "0f3c12d5-144d-4205-8b66-3d33867e664e"
+      },
+      "listeDroitAcces": [{"offre":          {
+        "@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+        "referenceImport": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"
+      }}],
+      "surLeSegment": "TOUS"
+    },
+    {
+      "groupeService":          {
+        "@id": "c50b34c5-b053-4a40-ab56-f5044c71935f",
+        "referenceImport": "c50b34c5-b053-4a40-ab56-f5044c71935f"
+      },
+      "listeDroitAcces": [{"offre":          {
+        "@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+        "referenceImport": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"
+      }}],
+      "surLeSegment": "TOUS"
+    },
+    {
+      "groupeService":          {
+        "@id": "0acd9c35-754f-4d25-853d-3feb0ce30f4c",
+        "referenceImport": "0acd9c35-754f-4d25-853d-3feb0ce30f4c"
+      },
+      "listeDroitAcces": [{"offre":          {
+        "@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+        "referenceImport": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"
+      }}],
+      "surLeSegment": "TOUS"
+    },
+    {
+      "groupeService":          {
+        "@id": "d928df87-c043-45f3-a046-af585029111e",
+        "referenceImport": "d928df87-c043-45f3-a046-af585029111e"
+      },
+      "listeDroitAcces": [{"offre":          {
+        "@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+        "referenceImport": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"
+      }}],
+      "segment":          {
+        "destination":             {
+          "ch": "BV",
+          "ci": "654321",
+          "cr": "0087"
+        },
+        "origine":             {
+          "ch": "BV",
+          "ci": "123456",
+          "cr": "0087"
+        }
+      },
+      "surLeSegment": "YCOMPRIS"
+    },
+    {
+      "groupeService":          {
+        "@id": "8de92152-8162-41d1-bd8b-5be10c221348",
+        "referenceImport": "8de92152-8162-41d1-bd8b-5be10c221348"
+      },
+      "listeDroitAcces": [{"offre":          {
+        "@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+        "referenceImport": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"
+      }}],
+      "pointParcours":          {
+        "ch": "BV",
+        "ci": "666666",
+        "cr": "0087"
+      },
+      "surLePointDeParcours": "SAUF"
+    }
+  ],
+  "marqueCourse": "TER",
+  "possibiliteService":    [
+    {
+      "@id": "0f3c12d5-144d-4205-8b66-3d33867e664e",
+      "listePartieCourse": [],
+      "listeService": [         {
+        "codeDeclinaisonService": "0",
+        "codeServiceCommercial": "PRESA",
+        "listeProprieteService": []
+      }],
+      "referenceImport": "0f3c12d5-144d-4205-8b66-3d33867e664e"
+    },
+    {
+      "@id": "c50b34c5-b053-4a40-ab56-f5044c71935f",
+      "listePartieCourse": [],
+      "listeService": [         {
+        "codeDeclinaisonService": "1",
+        "codeServiceCommercial": "PRESA",
+        "listeProprieteService": []
+      }],
+      "referenceImport": "c50b34c5-b053-4a40-ab56-f5044c71935f"
+    },
+    {
+      "@id": "0acd9c35-754f-4d25-853d-3feb0ce30f4c",
+      "listePartieCourse": [],
+      "listeService": [         {
+        "codeDeclinaisonService": "2",
+        "codeServiceCommercial": "PRESA",
+        "listeProprieteService": []
+      }],
+      "referenceImport": "0acd9c35-754f-4d25-853d-3feb0ce30f4c"
+    },
+    {
+      "@id": "d928df87-c043-45f3-a046-af585029111e",
+      "listePartieCourse": [],
+      "listeService": [         {
+        "codeServiceCommercial": "CCA",
+        "listeProprieteService": []
+      }],
+      "referenceImport": "d928df87-c043-45f3-a046-af585029111e"
+    },
+    {
+      "@id": "8de92152-8162-41d1-bd8b-5be10c221348",
+      "listePartieCourse": [],
+      "listeService": [         {
+        "codeServiceCommercial": "WF",
+        "listeProprieteService": []
+      }],
+      "referenceImport": "8de92152-8162-41d1-bd8b-5be10c221348"
+    }
+  ],
+  "referenceCourse":    {
+    "codeCompagnieTransporteur": "1187",
+    "indicateurFer": "FERRE",
+    "numeroCourse": "081702",
+    "type": "PTA"
+  },
+  "statutOuverture": "O",
+  "systemeCreateur": "2148",
+  "typeEquipement": "TIB"
+}]

@@ -1,0 +1,233 @@
+{
+  "codeCompagnieTransporteur": "1187",
+  "codeMarqueTransporteur": "TER",
+  "codeGrandeRegionResponsable" : "ATL",
+  "codeRelation": "GG08",
+  "codeService": "A2025",
+  "codeTransporteurResponsable": "5G",
+  "codeTypeMoyenTransport": "0",
+  "dateDebutService": "2023-12-10",
+  "codeSousRelation" : "10001",
+  "dateDerniereModification": "2025-12-12T13:09:45.186+0000",
+  "dateDerniereModificationProducteur": "2025-12-12T13:09:45+0000",
+  "dateFinService": "2025-12-14",
+  "dateReference": "2025-12-12",
+  "estDiscontinue": false,
+  "estTechnique": true,
+  "codeMission" : "mission",
+  "etat": "ACTIVE",
+  "estimationManuelle" : false,
+  "systemeCreateur" : "TTR",
+  "idDerniereAdaptation": "110903",
+  "idImmuable": "2148:1187-F-11998-20251129",
+  "idMotifInterneReference": 6,
+  "identifiantDansSystemeCreateur": "fdb238d4-3197-461a-91d7-abb793732e93",
+  "indicateurFer": "FERRE",
+  "idCourseSA" : "2148:234077877",
+  "idDerniereAdaptation" : "idDerniereAdaptation11998-002",
+  "listeCouplageCourseOPE": [
+
+  ],
+  "listeMoyenRemplacementOPE": [
+
+  ],
+  "listeCodeTransporteurAssocie" : [
+    "CODETR1",
+    "CODETR2",
+    "CODETR3"
+  ],
+  "listeEvenement" : [
+    {
+      "dateHeureCreation" : "2021-03-29T13:08:04+0000",
+      "identifiantDansSystemeCreateur" : "idTTR999Evt001",
+      "systemeCreateur" : "TTR",
+      "listeMotif" : [
+        {
+          "idMotifInterne" : "58",
+          "dateHeureDeclaration" : "2021-03-29T13:08:04+0000",
+          "source" : "COS"
+        },
+        {
+          "idMotifInterne" : "114",
+          "dateHeureDeclaration" : "2021-03-29T13:08:04+0000",
+          "source" : "ESCALE"
+        }
+      ],
+      "lieu" : {
+        "cr" : "0087",
+        "ci" : "123456",
+        "ch" : "00"
+      },
+      "libelle" : "Evènement 1"
+    },
+    {
+      "dateHeureCreation" : "2021-03-29T13:08:04+0000",
+      "identifiantDansSystemeCreateur" : "idTTR999Evt002",
+      "systemeCreateur" : "TTR",
+      "listeMotif" : [
+        {
+          "idMotifInterne" : "58",
+          "dateHeureDeclaration" : "2021-03-29T13:08:04+0000",
+          "source" : "COS"
+        },
+        {
+          "idMotifInterne" : "114",
+          "dateHeureDeclaration" : "2021-03-29T13:08:04+0000",
+          "source" : "ESCALE"
+        }
+      ],
+      "lieu" : {
+        "cr" : "0087",
+        "ci" : "123456",
+        "ch" : "00"
+      },
+      "libelle" : "Evènement 2"
+    }
+  ],
+  "listeJourRegimeDApplication" : [
+    {
+      "date" : "2025-12-12"
+    }
+  ],
+  "listeJourRegimeFacultatif" : [
+
+  ],
+  "listeMotif" : [
+    {
+      "idMotifInterne" : "58",
+      "dateHeureDeclaration" : "2021-03-29T13:08:04+0000",
+      "source" : "COS"
+    },
+    {
+      "idMotifInterne" : "114",
+      "dateHeureDeclaration" : "2021-03-29T13:08:04+0000",
+      "source" : "ESCALE"
+    }
+  ],
+  "listePointDeParcours" : [
+    {
+      "@id": "C18273E2-1BE1-4C85-A890-42B1944FACB8",
+      "arretFacultatif" : false,
+      "categorieStatistiqueDepart" : "MVD",
+      "cr" : "0087",
+      "ci" : "471003",
+      "ch" : "BV",
+      "timeZoneLocale" : "Europe/Paris",
+      "horaireProductionDepart" : {
+        "heureIncertaine" : false,
+        "heureLocale" : "22:28:00",
+        "idFuseauHoraire" : "Europe/Paris",
+        "nbJoursPasseMinuit" : 0
+      },
+      "horaireVoyageurDepart" : {
+        "heureLocale" : "22:28:00",
+        "idFuseauHoraire" : "Europe/Paris",
+        "nbJoursPasseMinuit" : 0
+      },
+      "rang" : 1,
+      "typeArret" : "CH",
+      "rebroussement" : false,
+      "listeCourseDeRemplacementDepart" : [
+
+      ],
+      "listeCourseDeRemplacementArrivee" : [
+
+      ],
+      "listeHoraireProjeteArrivee" : [
+
+      ],
+      "listeHoraireProjeteDepart" : [
+
+      ],
+      "listeMotifArrivee" : [
+
+      ],
+      "listeMotifDepart" : [
+
+      ]
+    },
+    {
+      "@id": "C821BCBD-6868-43AE-B1F7-305FEA47D3CD",
+      "arretFacultatif" : false,
+      "categorieStatistiqueArrivee" : "MVD",
+      "cr" : "0087",
+      "ci" : "474007",
+      "ch" : "BV",
+      "timeZoneLocale" : "Europe/Paris",
+      "horaireProductionArrivee" : {
+        "heureIncertaine" : false,
+        "heureLocale" : "00:29:00",
+        "idFuseauHoraire" : "Europe/Paris",
+        "nbJoursPasseMinuit" : 1
+      },
+      "horaireVoyageurArrivee" : {
+        "heureLocale" : "00:29:00",
+        "idFuseauHoraire" : "Europe/Paris",
+        "nbJoursPasseMinuit" : 1
+      },
+      "rang" : 2,
+      "typeArret" : "CH",
+      "rebroussement" : false,
+      "listeCourseDeRemplacementDepart" : [
+
+      ],
+      "listeCourseDeRemplacementArrivee" : [
+
+      ],
+      "listeHoraireProjeteArrivee" : [
+
+      ],
+      "listeHoraireProjeteDepart" : [
+
+      ],
+      "listeMotifArrivee" : [
+
+      ],
+      "listeMotifDepart" : [
+
+      ]
+    }
+  ],
+  "listeService" : [
+
+  ],
+  "listeSubstitutionCourse" : [
+
+  ],
+  "listeUtilisationSillon" : [
+    {
+      "identifiantSillon" : {
+        "numeroSillon" : "760401",
+        "sillonTTH" : "221438070001"
+      },
+      "listeJourRegimeDApplication" : [
+        {
+          "date" : "2025-12-12"
+        }
+      ],
+      "listeJourRegimeFacultatif" : [
+
+      ],
+      "porteur" : true,
+      "pointDebutUtilisationSillon" : {
+        "@id": "C18273E2-1BE1-4C85-A890-42B1944FACB8",
+        "rang" : 1
+      },
+      "pointFinUtilisationSillon" : {
+        "@id": "C821BCBD-6868-43AE-B1F7-305FEA47D3CD",
+        "rang" : 2
+      },
+      "rangPRDebutUtilisationSillon" : 1,
+      "rangPRFinUtilisationSillon" : 40,
+      "decalagePasseMinuit" : 0
+    }
+  ],
+  "mode" : null,
+  "numeroCourse" : "11998",
+  "numeroCourseAssocie" : "TEST",
+  "sousMode" : "highSpeedRail",
+  "statutOperationnel" : "AJOUTEE",
+  "statutSillonCourse" : "NON_CONNU",
+  "type": "COURSE_OPE",
+  "statutSillonInternational" : null
+}

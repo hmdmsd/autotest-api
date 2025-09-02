@@ -1,0 +1,167 @@
+[{
+    "idImmuable": "2148:1187-F-88865-20251130",
+    "type": "COURSE_PTP",
+    "codeCompagnieTransporteur": "1187",
+    "codeMarqueTransporteur": "OUIGO",
+    "codeNatureMission": "0",
+    "codeRelation": "413",
+    "codeService": "A2025",
+    "codeTransporteurResponsable": "5T",
+    "dateCirculation": "2025-11-30",
+    "dateDerniereModification": "2025-08-05T10:00:47.753+0200",
+    "dateDerniereModificationProducteur": "2021-12-23T23:00:00.000+0100",
+    "dateReference": "2025-11-30",
+    "estDiscontinue": false,
+    "estFacultatif": false,
+    "estTechnique": false,
+    "etat": "ACTIVE",
+    "identifiantDansSystemeCreateur": "5d9d5678-7f84-424c-ae6c-e2c83154011f",
+    "idMotifInterneReference": 101,
+    "impactEvenement": "CREATION",
+    "indicateurFer": "FERRE",
+    "numeroCourse": "88865",
+    "statutSillonCourse": "NON_CONNU",
+    "systemeCreateur": "2148",
+    "listeBesoinSillon": [],
+    "listeCaracteristiqueProduction": [   {
+        "@id": "590ecf63-8dcc-46d5-b238-391fd681eba1",
+        "code": "CS01",
+        "listePropriete":       [
+            {
+                "@id": "95352652-200c-430b-8a94-3852677c91ea",
+                "code": "CP001",
+                "valeurChaine": "A"
+            },
+            {
+                "@id": "350d89f9-8667-4456-9186-765ce07ea238",
+                "code": "CP002",
+                "valeurChaine": "A"
+            }
+        ],
+        "pointDeParcoursDebut": {"@id": "b6ed6ba2-a85c-4f42-b6b0-1aabc9080c52"},
+        "pointDeParcoursFin": {"@id": "3a8e94ea-055f-485b-9cd2-bf4b3b95f6ca"}
+    }],
+    "listeCodeTransporteurAssocie": [],
+    "listeCouplageCourse": [],
+    "listeEvenement": [   {
+        "@id": "ae61d5cd-68f2-44fa-b29d-c32bc319e867",
+        "listeMotif": []
+    }],
+    "listeMoyenRemplacement": [],
+    "listePointDeParcours":    [
+        {
+            "@id": "b6ed6ba2-a85c-4f42-b6b0-1aabc9080c52",
+            "arretFacultatif": false,
+            "categorieStatistiqueDepart": "AAA",
+            "cr": "0087",
+            "ci": "193003",
+            "ch": "BV",
+            "horaireProductionDepart":          {
+                "dateHeure": "2025-11-30T12:10:00.000+0100",
+                "heureIncertaine": false
+            },
+            "horaireVoyageurDepart":          {
+                "dateHeure": "2025-11-30T12:10:00.000+0100",
+                "statutCirculation": "CREATION"
+            },
+            "rang": 1,
+            "rebroussement": false,
+            "timeZoneLocale": "Europe/Paris",
+            "typeArret": "CH",
+            "listeCourseDeRemplacementArrivee": [],
+            "listeCourseDeRemplacementDepart": [],
+            "listeHoraireProjeteArrivee": [],
+            "listeHoraireProjeteDepart": [],
+            "listeMotifArrivee": [],
+            "listeMotifDepart": []
+        },
+        {
+            "@id": "2d6cd9e3-9a46-4381-b955-c0bb50c16292",
+            "arretFacultatif": false,
+            "categorieStatistiqueArrivee": "AAA",
+            "categorieStatistiqueDepart": "BBB",
+            "cr": "0087",
+            "ci": "193250",
+            "ch": "BV",
+            "horaireProductionArrivee":          {
+                "dateHeure": "2025-11-30T12:20:00.000+0100",
+                "heureIncertaine": false
+            },
+            "horaireProductionDepart":          {
+                "dateHeure": "2025-11-30T13:00:00.000+0100",
+                "heureIncertaine": false
+            },
+            "horaireVoyageurArrivee":          {
+                "dateHeure": "2025-11-30T12:20:00.000+0100",
+                "statutCirculation": "CREATION"
+            },
+            "horaireVoyageurDepart":          {
+                "dateHeure": "2025-11-30T13:00:00.000+0100",
+                "statutCirculation": "CREATION"
+            },
+            "rang": 2,
+            "rebroussement": false,
+            "timeZoneLocale": "Europe/Paris",
+            "typeArret": "CH",
+            "listeCourseDeRemplacementArrivee": [],
+            "listeCourseDeRemplacementDepart": [],
+            "listeHoraireProjeteArrivee": [],
+            "listeHoraireProjeteDepart": [],
+            "listeMotifArrivee": [],
+            "listeMotifDepart": []
+        },
+        {
+            "@id": "3a8e94ea-055f-485b-9cd2-bf4b3b95f6ca",
+            "arretFacultatif": false,
+            "categorieStatistiqueArrivee": "BBB",
+            "cr": "0087",
+            "ci": "193276",
+            "ch": "BV",
+            "horaireProductionArrivee":          {
+                "dateHeure": "2025-11-30T12:16:30.000+0100",
+                "heureIncertaine": false
+            },
+            "horaireVoyageurArrivee":          {
+                "dateHeure": "2025-11-30T12:16:30.000+0100",
+                "statutCirculation": "CREATION"
+            },
+            "rang": 3,
+            "rebroussement": true,
+            "timeZoneLocale": "Europe/London",
+            "typeArret": "CH",
+            "listeCourseDeRemplacementArrivee": [],
+            "listeCourseDeRemplacementDepart": [],
+            "listeHoraireProjeteArrivee": [],
+            "listeHoraireProjeteDepart": [],
+            "listeMotifArrivee": [],
+            "listeMotifDepart": []
+        }
+    ],
+    "listeSubstitutionCourse": [],
+    "listeUtilisationSillon":    [
+        {
+            "decalagePasseMinuit": 0,
+            "identifiantSillon":          {
+                "numeroOperationnelSillon": "88865",
+                "sillonTTH": "065229888651"
+            },
+            "pointDebutUtilisationSillon": {"@id": "b6ed6ba2-a85c-4f42-b6b0-1aabc9080c52"},
+            "pointFinUtilisationSillon": {"@id": "2d6cd9e3-9a46-4381-b955-c0bb50c16292"},
+            "porteur": true,
+            "rangPRDebutUtilisationSillon": 1,
+            "rangPRFinUtilisationSillon": 20
+        },
+        {
+            "decalagePasseMinuit": 0,
+            "identifiantSillon":          {
+                "numeroOperationnelSillon": "88865",
+                "sillonTTH": "065229888652"
+            },
+            "pointDebutUtilisationSillon": {"@id": "2d6cd9e3-9a46-4381-b955-c0bb50c16292"},
+            "pointFinUtilisationSillon": {"@id": "3a8e94ea-055f-485b-9cd2-bf4b3b95f6ca"},
+            "porteur": true,
+            "rangPRDebutUtilisationSillon": 21,
+            "rangPRFinUtilisationSillon": 40
+        }
+    ]
+}]

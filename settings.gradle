@@ -1,0 +1,48 @@
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.namespace == 'sncf.mobilite.vpr.cots') {
+                useModule("sncf.mobilite.vpr.cots:utils-gradle-conventions:${utilsGradleVersion}")
+            }
+        }
+    }
+    repositories {
+        mavenLocal()
+        maven {
+            // Eul Project
+            url = "https://artefact-repo.apps.eul.sncf.fr/artifactory/maven_03925"
+            credentials {
+                username = System.getenv('EUL_REPO_USER') != null ? System.getenv('EUL_REPO_USER') : eulRepoUser
+                password = System.getenv('EUL_REPO_PASSWORD') != null ? System.getenv('EUL_REPO_PASSWORD') : eulRepoPassword
+            }
+        }
+    }
+}
+
+rootProject.name = 'autotest-api'
+
+ext.projectAresis = '03925'
+
+var projetAresisRepo = {
+    mavenLocal()
+    maven {
+        // Eul Public
+        url = "https://artefact-repo.apps.eul.sncf.fr/artifactory/maven-public"
+    }
+    maven {
+        // Eul Project
+        url = "https://artefact-repo.apps.eul.sncf.fr/artifactory/maven_${projectAresis}"
+        credentials {
+            username = System.getenv('EUL_REPO_USER') != null ? System.getenv('EUL_REPO_USER') : eulRepoUser
+            password = System.getenv('EUL_REPO_PASSWORD') != null ? System.getenv('EUL_REPO_PASSWORD') : eulRepoPassword
+        }
+    }
+}
+
+println "Reconfiguring repositories to ${projectAresis}."
+gradle.allprojects { project ->
+    project.repositories projetAresisRepo
+    project.buildscript.repositories projetAresisRepo
+}
+
+include 'autotest-services'

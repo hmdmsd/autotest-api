@@ -1,0 +1,661 @@
+[
+  {
+    "idImmuable": "2148:1187-F-170201-2025-10-24",
+    "dateReference":  "2025-10-24",
+    "codeTransporteurResponsable": "4A",
+    "codeService": "2025",
+    "dateDerniereModificationProducteur": "2021-10-20T15:33:54Z",
+    "entiteOffre": "48240",
+    "etat": "ACTIVE",
+    "identifiantDansSystemeCreateur": "170201/1187_FERRE/2025-10-24",
+    "indicateurInterSecteur": false,
+    "listeJourCirculation": [
+      {
+        "date": "2025-10-24"
+      }
+    ],
+    "listeOffre": [
+      {
+        "codeOffre": "OV",
+        "proprieteOffre": {
+          "codeGestionnaireOffre": "SN",
+          "codeInventaire": "RR",
+          "codeYieldManager": "SNCF"
+        },
+        "referenceImport": "1"
+      },
+      {
+        "codeOffre": "OT",
+        "proprieteOffre": {
+          "codeGestionnaireOffre": "ST",
+          "codeInventaire": "RT",
+          "codeYieldManager": "SNCF"
+        },
+        "referenceImport": "3"
+      },
+      {
+        "codeOffre": "OS",
+        "proprieteOffre": {
+          "codeGestionnaireOffre": "YT",
+          "codeInventaire": "RTY",
+          "codeYieldManager": "SNCF2"
+        },
+        "referenceImport": "5"
+      }
+    ],
+    "listeParametreValidite": [
+      {
+        "groupeService": {
+          "referenceImport": "1"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "surLeSegment": "TOUS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "2"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV"
+          },
+          "statutSegment": "SUPPRIME"
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "2"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV",
+            "incrementRebroussement": 1
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "2"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV",
+            "incrementRebroussement": 0
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV"
+          },
+          "statutSegment": "MAINTENU"
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "3"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "SAUF"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "3"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "3"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          },
+          {
+            "offre": {
+              "referenceImport": "3"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "4"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "4"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "5"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "4"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "3"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "5"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478107",
+            "ch": "00"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "391003",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "478073",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "391003",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "471003",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "391003",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      },
+      {
+        "groupeService": {
+          "referenceImport": "5"
+        },
+        "listeDroitAcces": [
+          {
+            "offre": {
+              "referenceImport": "1"
+            }
+          }
+        ],
+        "segment": {
+          "destination": {
+            "cr": "0087",
+            "ci": "396002",
+            "ch": "BV"
+          },
+          "origine": {
+            "cr": "0087",
+            "ci": "391003",
+            "ch": "BV"
+          }
+        },
+        "surLeSegment": "YCOMPRIS"
+      }
+    ],
+    "marqueCourse": "INO",
+    "possibiliteService": [
+      {
+        "listePartieCourse" : [
+          {
+            "debut" : {
+              "ch" : "BV",
+              "ci" : "123456",
+              "cr" : "0087",
+              "incrementRebroussement" : 0
+            },
+            "fin" : {
+              "ch" : "BV",
+              "ci" : "123456",
+              "cr" : "0087",
+              "incrementRebroussement" : 0
+            }
+          }
+        ],
+        "listeService" : [
+          {
+            "codeServiceCommercial" : "DEDICADE",
+            "listeProprieteService" : [
+              {
+                "codeProprieteService" : "code"
+              }
+            ],
+            "conformiteService" : {
+              "etatService" : "OK",
+              "dateDerniereDeclaration" : "2016-04-27"
+            }
+          }
+        ],
+        "referenceImport" : "1"
+      },
+      {
+        "listeService": [
+          {
+            "codeServiceCommercial": "PRESA",
+            "codeDeclinaisonService": "0",
+            "listeProprieteService": [
+              {
+                "codeProprieteService": "code"
+              }
+            ]
+          }
+        ],
+        "referenceImport": "2"
+      },
+      {
+        "listeService": [
+          {
+            "codeServiceCommercial": "PRESA",
+            "codeDeclinaisonService": "1",
+            "listeProprieteService": [
+              {
+                "codeProprieteService": "code"
+              }
+            ]
+          }
+        ],
+        "referenceImport": "3"
+      },
+      {
+        "listeService": [
+          {
+            "codeServiceCommercial": "PRESA",
+            "codeDeclinaisonService": "2",
+            "listeProprieteService": [
+              {
+                "codeProprieteService": "code"
+              }
+            ]
+          }
+        ],
+        "referenceImport": "4"
+      },
+      {
+        "listeService": [
+          {
+            "codeServiceCommercial": "DEDICADE",
+            "listeProprieteService": [
+              {
+                "codeProprieteService": "code"
+              }
+            ]
+          }
+        ],
+        "referenceImport": "5"
+      },
+      {
+        "listeService": [
+          {
+            "codeServiceCommercial": "VG",
+            "listeProprieteService": [
+              {
+                "codeProprieteService": "code"
+              }
+            ]
+          }
+        ],
+        "referenceImport": "6"
+      }
+    ],
+    "qualiteCommerciale": "N",
+    "referenceCourse": {
+      "codeCompagnieTransporteur": "1187",
+      "indicateurFer": "FERRE",
+      "numeroCourse": "170201",
+      "type":"PTA"
+    },
+    "statutOuverture" : "O",
+    "systemeCreateur": "2148",
+    "typeEquipement": "TGG"
+  }
+
+]

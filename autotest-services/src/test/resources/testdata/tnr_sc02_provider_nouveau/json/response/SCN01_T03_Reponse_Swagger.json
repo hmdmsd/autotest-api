@@ -1,0 +1,10 @@
+{
+  "etatsCoursesDistribuablesCrees": [   {
+    "identifiantCOTS": "545abfe3-2e3d-4bd5-b7b7-5d11dec8fe64",
+    "idImmuable": "2148:1187-F-230105-2025-11-28",
+    "systemeCreateur": "2148",
+    "identifiantDansSystemeCreateur": "230105/1187_F/2025-11-28"
+  }],
+  "etatsCoursesDistribuablesModifies": [],
+  "etatsCoursesDistribuablesRejetes": []
+}

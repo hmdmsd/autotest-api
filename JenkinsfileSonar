@@ -1,0 +1,75 @@
+#!/usr/bin/env groovy
+//Version templatefile maven : 1.7.0
+
+//déclaration de la shared library build_libs
+@Library('build_libs') _
+
+def options = [
+                //Paramètre optionnel :Id du fichier de configuration maven à utiliser
+                //'MAVEN_CONFIG_ID': '{{group-repository-nexus-id}}',
+                // Clé SonarQube pour les analyses
+                //PROJECT_SONAR_KEY: '{{project-sonar-key}}',
+                //Propriétés spécifiques au job
+                // Paramètre obligatoire
+                //Nombre de build a conserver dans l'historique
+                NUM_TO_KEEP   : 10,
+                //Paramètre obligatoire
+                //version de l'image android utilisés pour le build
+                MAVEN_VERSION: '3.5.3-jdk-8'
+                ]
+
+
+//Valorisation des options par défaut
+options = defaultBuildOptions(options)
+
+
+//Propriétés du job
+properties([[$class: 'BuildConfigProjectProperty'],
+    //Conservation des 10 dernières éxecutions
+    buildDiscarder(logRotator(numToKeepStr: "${options['NUM_TO_KEEP']}")),
+    //Paramètres du build sonar
+    parameters([string(defaultValue: '', description: 'Tag de la release sur lequelle lancer l\'analyse', name: 'TAG_RELEASE')
+                ])
+    ])
+
+//Le nom du build prend le nom du tag à analyser
+currentBuild.displayName = "${TAG_RELEASE}"
+
+//Plugin timestamp pour afficher le temps à chaque ligne de log
+timestamps {
+   withTools([name: 'maven', version: "${options['MAVEN_VERSION']}"]) {
+        try {
+            stage('Récupération code source') {
+                checkout scm
+            }
+
+            //Phase de controle du passage de la quality gate
+            withMaven(mavenSettingsConfig: "${options['MAVEN_CONFIG_ID']}", options: [openTasksPublisher()], publisherStrategy: 'EXPLICIT') {
+                container('maven') {
+                    stage('Analyse SonarQube') {
+                        withSonarQubeEnv("sonarqube") {
+                            sh "mvn $MAVEN_CONFIG clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Duser.timezone=Europe/Paris -Dsonar.projectKey=${options['PROJECT_SONAR_KEY']}"
+                        }
+                    }
+                }
+            }
+
+            currentBuild.result = 'SUCCESS'
+
+        } catch (all) {
+            currentBuild.result = 'FAILURE'
+            //Envoi d'un mail en cas d'échec
+            //voir https://jenkins.io/doc/pipeline/steps/email-ext/ pour plus de précisions
+            emailext(
+                body:'${DEFAULT_CONTENT}',
+                subject:'${DEFAULT_SUBJECT}',
+                //envoie du mail aux développeurs responsables d'une modification du code
+                recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+                //Pour également envoyer le mail à une liste d'adresses (séparées par des ,)
+            //  to : "adressmail1, adressmail2"
+            )
+
+            throw all
+        }
+    }
+}

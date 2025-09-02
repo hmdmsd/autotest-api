@@ -1,0 +1,152 @@
+[{
+  "@id": "e3704307-6155-4067-97b6-3777870a43b7",
+  "numeroCourse": "081702",
+  "idImmuable": "2148:1187-F-WN999-20251223",
+  "dateCirculation": "2025-12-23",
+  "codeCompagnieTransporteur": "1187",
+  "codeTransporteurResponsable": "1187",
+  "indicateurFer": "FERRE",
+  "codeService": "A2025",
+  "dateDerniereModification": "2025-11-14T14:25:29.548+0100",
+  "dateDerniereModificationProducteur": "2025-06-30T17:00:00.000+0200",
+  "etat": "ACTIVE",
+  "identifiantDansSystemeCreateur": "081701/1187_FERRE/2015-12-17",
+  "systemeCreateur": "2148",
+  "type": "PTA",
+  "typeEquipement": "TIB",
+  "listeCaracteristiqueDistribution":    [
+    {
+      "@id": "1126a39c-b9c6-485c-8498-001f960c25bb",
+      "code": "STO",
+      "type": "commercialisable",
+      "listePropriete": [         {
+        "codePropriete": "statutOuverture",
+        "valeurPropriete": "O"
+      }]
+    },
+    {
+      "@id": "0f06803d-13c1-49f8-b2cd-b0c569d2ceb1",
+      "code": "EO",
+      "type": "affectation",
+      "listePropriete": [         {
+        "codePropriete": "entiteOffre",
+        "valeurPropriete": "22898"
+      }]
+    },
+    {
+      "@id": "0f3c12d5-144d-4205-8b66-3d33867e664e",
+      "code": "PRESA-0",
+      "type": "ensemblePrestations",
+      "listePropriete": []
+    },
+    {
+      "@id": "c50b34c5-b053-4a40-ab56-f5044c71935f",
+      "code": "PRESA-1",
+      "type": "ensemblePrestations",
+      "listePropriete": []
+    },
+    {
+      "@id": "0acd9c35-754f-4d25-853d-3feb0ce30f4c",
+      "code": "PRESA-2",
+      "type": "ensemblePrestations",
+      "listePropriete": []
+    },
+    {
+      "@id": "d928df87-c043-45f3-a046-af585029111e",
+      "code": "CCA",
+      "type": "ensemblePrestations",
+      "listePropriete": []
+    },
+    {
+      "@id": "8de92152-8162-41d1-bd8b-5be10c221348",
+      "code": "WF",
+      "type": "ensemblePrestations",
+      "listePropriete": []
+    }
+  ],
+  "listeOffre": [   {
+    "@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70",
+    "codeOffre": "TER",
+    "proprieteOffre": {"codeGestionnaireOffre": "1187"},
+    "listeProduitTarifairePredefini": [{"marqueProduitTarifaire": "TER"}]
+  }],
+  "listeParametreValidite":    [
+    {
+      "caracteristiqueDistribution": {"@id": "1126a39c-b9c6-485c-8498-001f960c25bb"},
+      "surLaZoneFonctionnelle": "TOUS",
+      "surLeSegment": "TOUS",
+      "listeDroitAcces": [],
+      "listeZoneFonctionnelle": []
+    },
+    {
+      "caracteristiqueDistribution": {"@id": "0f06803d-13c1-49f8-b2cd-b0c569d2ceb1"},
+      "surLaZoneFonctionnelle": "TOUS",
+      "surLeSegment": "TOUS",
+      "listeDroitAcces": [],
+      "listeZoneFonctionnelle": []
+    },
+    {
+      "caracteristiqueDistribution": {"@id": "0f3c12d5-144d-4205-8b66-3d33867e664e"},
+      "surLaZoneFonctionnelle": "TOUS",
+      "surLeSegment": "TOUS",
+      "listeDroitAcces": [{"offre": {"@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"}}],
+      "listeZoneFonctionnelle": []
+    },
+    {
+      "caracteristiqueDistribution": {"@id": "c50b34c5-b053-4a40-ab56-f5044c71935f"},
+      "surLaZoneFonctionnelle": "TOUS",
+      "surLeSegment": "TOUS",
+      "listeDroitAcces": [{"offre": {"@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"}}],
+      "listeZoneFonctionnelle": []
+    },
+    {
+      "caracteristiqueDistribution": {"@id": "0acd9c35-754f-4d25-853d-3feb0ce30f4c"},
+      "surLaZoneFonctionnelle": "TOUS",
+      "surLeSegment": "TOUS",
+      "listeDroitAcces": [{"offre": {"@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"}}],
+      "listeZoneFonctionnelle": []
+    },
+    {
+      "caracteristiqueDistribution": {"@id": "d928df87-c043-45f3-a046-af585029111e"},
+      "surLaZoneFonctionnelle": "TOUS",
+      "surLeSegment": "YCOMPRIS",
+      "segment":          {
+        "origine": {"@id": "6eadcc7e-1df3-4a03-a540-59e9f0b15b5c"},
+        "destination": {"@id": "0187c37f-7184-4391-b831-36aae20206b6"}
+      },
+      "listeDroitAcces": [{"offre": {"@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"}}],
+      "listeZoneFonctionnelle": []
+    },
+    {
+      "caracteristiqueDistribution": {"@id": "8de92152-8162-41d1-bd8b-5be10c221348"},
+      "pointDeParcours": {"@id": "8fd98fc5-a425-412e-a57b-71f3542c6ce7"},
+      "surLaZoneFonctionnelle": "TOUS",
+      "surLePointDeParcours": "SAUF",
+      "listeDroitAcces": [{"offre": {"@id": "f5bcf509-7a22-43f6-ae7e-cbf2e18c4c70"}}],
+      "listeZoneFonctionnelle": []
+    }
+  ],
+  "listePointDeParcours":    [
+    {
+      "@id": "6eadcc7e-1df3-4a03-a540-59e9f0b15b5c",
+      "cr": "0087",
+      "ci": "123456",
+      "ch": "BV",
+      "rebroussement": false
+    },
+    {
+      "@id": "0187c37f-7184-4391-b831-36aae20206b6",
+      "cr": "0087",
+      "ci": "654321",
+      "ch": "BV",
+      "rebroussement": false
+    },
+    {
+      "@id": "8fd98fc5-a425-412e-a57b-71f3542c6ce7",
+      "cr": "0087",
+      "ci": "666666",
+      "ch": "BV",
+      "rebroussement": false
+    }
+  ]
+}]

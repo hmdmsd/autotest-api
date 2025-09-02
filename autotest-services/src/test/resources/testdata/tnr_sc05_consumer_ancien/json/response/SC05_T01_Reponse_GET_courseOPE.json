@@ -1,0 +1,251 @@
+[{
+  "@id": "0f1e9229-279a-4603-ad28-e953c918427c",
+  "codeCompagnieTransporteur": "1187",
+  "codeMarqueTransporteur": "TER",
+  "codeRelation": "MN-01",
+  "codeService": "2025",
+  "codeSousRelation": "10001",
+  "codeTransporteurResponsable": "4T",
+  "codeTypeMoyenTransport": "15",
+  "dateDebutService": "2024-12-15",
+  "dateDerniereModification": "2025-09-01T13:53:48.666+0200",
+  "dateDerniereModificationProducteur": "2021-06-14T14:04:04+0200",
+  "dateFinService": "2025-12-13",
+  "dateReference": "2025-12-02",
+  "estDiscontinue": false,
+  "estTechnique": true,
+  "estimationManuelle": false,
+  "etat": "ACTIVE",
+  "idDerniereAdaptation": "idDerniereAdaptation11999-002",
+  "idImmuable": "2849:20250318-0001",
+  "idMotifInterneReference": 101,
+  "idVersion": "fbd10ba2-fbba-4af7-9f70-a9695361377e",
+  "identifiantDansSystemeCreateur": "idTTR999",
+  "indicateurFer": "FERRE",
+  "listeCouplageCourseOPE": [],
+  "listeMoyenRemplacementOPE": [],
+  "listeCodeTransporteurAssocie":    [
+    "CODETR1",
+    "CODETR2",
+    "CODETR3"
+  ],
+  "listeEvenement":    [
+    {
+      "dateHeureCreation": "2021-03-29T08:43:50+0200",
+      "identifiantDansSystemeCreateur": "idTTR999Evt001",
+      "libelle": "EvÃ¨nement 1",
+      "lieu":          {
+        "cr": "0087",
+        "ci": "123456",
+        "ch": "00"
+      },
+      "listeMotif":          [
+        {
+          "dateHeureDeclaration": "2021-03-29T08:44:02+0200",
+          "idMotifInterne": 58,
+          "source": "COS"
+        },
+        {
+          "dateHeureDeclaration": "2021-03-29T08:44:03+0200",
+          "idMotifInterne": 114,
+          "source": "ESCALE"
+        }
+      ],
+      "systemeCreateur": "TTR"
+    },
+    {
+      "dateHeureCreation": "2021-03-29T08:44:50+0200",
+      "identifiantDansSystemeCreateur": "idTTR999Evt002",
+      "libelle": "EvÃ¨nement 2",
+      "lieu":          {
+        "cr": "0087",
+        "ci": "123456",
+        "ch": "00"
+      },
+      "listeMotif":          [
+        {
+          "dateHeureDeclaration": "2021-03-29T08:44:02+0200",
+          "idMotifInterne": 58,
+          "source": "COS"
+        },
+        {
+          "dateHeureDeclaration": "2021-03-29T08:44:03+0200",
+          "idMotifInterne": 114,
+          "source": "ESCALE"
+        }
+      ],
+      "systemeCreateur": "TTR"
+    }
+  ],
+  "listeJourRegimeDApplication": [{"date": "2025-12-02"}],
+  "listeJourRegimeFacultatif": [],
+  "listeMotif":    [
+    {
+      "dateHeureDeclaration": "2021-03-29T08:44:02+0200",
+      "idMotifInterne": 58,
+      "source": "COS"
+    },
+    {
+      "dateHeureDeclaration": "2021-03-29T08:44:03+0200",
+      "idMotifInterne": 114,
+      "source": "ESCALE"
+    }
+  ],
+  "listePointDeParcours":    [
+    {
+      "@id": "3b5feece-2861-4d1c-9967-956644103d39",
+      "arretFacultatif": false,
+      "categorieStatistiqueDepart": "AAA",
+      "cr": "0087",
+      "ci": "193010",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/London",
+      "horaireObserveDepart":          {
+        "dateHeure": "2025-12-02T23:19:00+0100",
+        "dateHeureEmission": "2025-12-02T23:19:00+0100",
+        "source": "BREHAT"
+      },
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-12-02T23:17:00+0100",
+        "heureLocale": "22:17:00",
+        "idFuseauHoraire": "Europe/London",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculationOPE": "CREATION"
+      },
+      "idMotifInterneDepartReference": 58,
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart":          [
+        {
+          "dateHeureDeclaration": "2021-12-02T13:07:00+0100",
+          "idMotifInterne": 58,
+          "source": "COS"
+        },
+        {
+          "dateHeureDeclaration": "2021-12-02T13:10:00+0100",
+          "idMotifInterne": 114,
+          "source": "ESCALE"
+        }
+      ],
+      "rang": 1,
+      "rebroussement": true,
+      "typeArret": "CH"
+    },
+    {
+      "@id": "37088907-b2c6-4c61-af77-29dd55a0f8c7",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "AAA",
+      "categorieStatistiqueDepart": "BBB",
+      "cr": "0087",
+      "ci": "193251",
+      "ch": "BV",
+      "timeZoneLocale": "Europe/Paris",
+      "horaireObserveArrivee":          {
+        "dateHeure": "2025-12-02T23:53:00+0100",
+        "dateHeureEmission": "2025-12-02T23:53:00+0100",
+        "source": "BREHAT"
+      },
+      "horaireObserveDepart":          {
+        "dateHeure": "2025-12-03T01:05:00+0100",
+        "dateHeureEmission": "2025-12-03T01:05:00+0100",
+        "source": "BREHAT"
+      },
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-12-02T23:51:00+0100",
+        "heureLocale": "23:51:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 0,
+        "statutCirculationOPE": "CREATION"
+      },
+      "horaireVoyageurDepart":          {
+        "dateHeure": "2025-12-03T01:04:00+0100",
+        "heureLocale": "01:04:00",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 1,
+        "statutCirculationOPE": "CREATION"
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 2,
+      "rebroussement": false,
+      "sourceHoraireProjeteArriveeReference": "ESCALE",
+      "sourceHoraireProjeteDepartReference": "COS",
+      "typeArret": "CH"
+    },
+    {
+      "@id": "930ad574-9f34-4f4e-83aa-e50f117b9d8b",
+      "arretFacultatif": false,
+      "categorieStatistiqueArrivee": "BBB",
+      "cr": "0087",
+      "ci": "193277",
+      "ch": "00",
+      "timeZoneLocale": "Europe/Paris",
+      "horaireObserveArrivee":          {
+        "dateHeure": "2025-12-03T01:19:30+0100",
+        "dateHeureEmission": "2025-12-03T01:19:30+0100",
+        "source": "BREHAT"
+      },
+      "listeCourseDeRemplacementDepart": [],
+      "listeCourseDeRemplacementArrivee": [],
+      "horaireVoyageurArrivee":          {
+        "dateHeure": "2025-12-03T01:17:30+0100",
+        "heureLocale": "01:17:30",
+        "idFuseauHoraire": "Europe/Paris",
+        "nbJoursPasseMinuit": 1,
+        "statutCirculationOPE": "CREATION"
+      },
+      "listeHoraireProjeteArrivee": [],
+      "listeHoraireProjeteDepart": [],
+      "listeMotifArrivee": [],
+      "listeMotifDepart": [],
+      "rang": 3,
+      "rebroussement": false,
+      "typeArret": "CH"
+    }
+  ],
+  "listeService": [],
+  "listeSubstitutionCourse": [],
+  "listeUtilisationSillon":    [
+    {
+      "identifiantSillon":          {
+        "numeroOperationnelSillon": "11999",
+        "sillonTTH": "065229599991"
+      },
+      "listeJourRegimeDApplication": [{"date": "2025-12-02"}],
+      "listeJourRegimeFacultatif": [],
+      "pointDebutUtilisationSillon": {"@id": "3b5feece-2861-4d1c-9967-956644103d39"},
+      "pointFinUtilisationSillon": {"@id": "37088907-b2c6-4c61-af77-29dd55a0f8c7"},
+      "porteur": true,
+      "rangPRDebutUtilisationSillon": 1,
+      "decalagePasseMinuit": 0,
+      "rangPRFinUtilisationSillon": 150
+    },
+    {
+      "identifiantSillon":          {
+        "numeroOperationnelSillon": "11999-11931",
+        "sillonTTH": "065229599992"
+      },
+      "listeJourRegimeDApplication": [{"date": "2025-12-02"}],
+      "listeJourRegimeFacultatif": [],
+      "pointDebutUtilisationSillon": {"@id": "37088907-b2c6-4c61-af77-29dd55a0f8c7"},
+      "pointFinUtilisationSillon": {"@id": "930ad574-9f34-4f4e-83aa-e50f117b9d8b"},
+      "porteur": true,
+      "rangPRDebutUtilisationSillon": 151,
+      "decalagePasseMinuit": 0,
+      "rangPRFinUtilisationSillon": 200
+    }
+  ],
+  "numeroCourse": "11999",
+  "numeroCourseAssocie": "11999",
+  "statutSillonCourse": "NON_CONNU",
+  "statutOperationnel": "AJOUTEE",
+  "systemeCreateur": "TTR",
+  "type": "COURSE_OPE"
+}]
