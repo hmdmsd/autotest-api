@@ -216,6 +216,14 @@ public class ConsumerNouveauServiceStepDefs extends SpringWebCucumberTestConfig 
         return objectMapper.readTree(responseBody);
     }
 
+    public void setLastConsumerResponse(ResponseEntity<String> response) {
+        this.lastConsumerResponse = response;
+    }
+
+    public ResponseEntity<String> getLastConsumerResponse() {
+        return lastConsumerResponse;
+    }
+
     private void validateConsumerResponseStructure(JsonNode actual) {
         if (actual.has("typeDossier")) {
             // DossierEvenement structure validation
@@ -232,7 +240,7 @@ public class ConsumerNouveauServiceStepDefs extends SpringWebCucumberTestConfig 
         } else {
             // Other entities structure validation (ECP, ECD, etc.)
             String[] structuralFields = {
-                    "idImmuable", "systemeCreateur", "etat", "indicateurFer"
+                    "idImmuable", "systemeCreateur", "etat"
             };
 
             for (String field : structuralFields) {

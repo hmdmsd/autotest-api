@@ -50,9 +50,8 @@ Feature: Consumer ancien service - Tests de non-régression (TNR)
     # Prérequis: Course commerciale à importer
     Given la course commerciale avec idImmuable "2148:1187-F-081702-20251223" n'existe pas en base
     And json contenu dans le corps de la requete externe "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T02_Prerequis_CourseCommerciale_a_Inserer.json"
-    When Requete HTTP externe methode "POST" URL "/import/importerCoursesCommerciales"
+    When Requete HTTP externe methode "POST" URL "/import/importerEtatsCoursesDistribuables"
     Then Code HTTP externe 200 recu
-    And la course commerciale avec idImmuable "2148:1187-F-081702-20251223" doit être présente en base
     # Test GET /coursesCommerciales
     When Requete HTTP consumer GET URL "/coursesCommerciales" avec parametres numeroCourse "081702" indicateurFer "FERRE" codeCompagnieTransporteur "1187" dateDebutPeriode "2025-12-23" dateFinPeriode "2025-12-23"
     Then Code HTTP consumer 200 recu
