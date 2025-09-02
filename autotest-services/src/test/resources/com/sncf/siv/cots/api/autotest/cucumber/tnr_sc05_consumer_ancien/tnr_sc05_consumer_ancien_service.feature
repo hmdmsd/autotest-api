@@ -7,7 +7,7 @@ Feature: Consumer ancien service - Tests de non-régression (TNR)
     Given les données de test TNR_SC05 sont nettoyées
 
   @TNR_SC05_T01
-  Scenario: Recherche de course - Par numeroCourse, codeService, typeCourse, dateDebutPeriode, dateFinPeriode (TNR-SC05-T01)
+  Scenario: Obtenir une course PTA, PTP et OPE (TNR-SC05-T01)
     # Prérequis: DEVT à importer
     Given le dossier événement avec identifiantDansSystemeCreateur "5T-2025-12-02" n'existe pas en base
     And json contenu dans le corps de la requete externe "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T01_Prerequis_DEVT_a_Inserer.json"
@@ -27,11 +27,11 @@ Feature: Consumer ancien service - Tests de non-régression (TNR)
     Then Code HTTP externe 200 recu
     And l'ECP avec idImmuable "2148:1187-F-88865-20251130" doit être présent en base
     # Prérequis: Course OPE à importer
-    Given la course OPE avec idImmuable "2148:1187-F-11999-20251202" n'existe pas en base
+    Given l'ECP avec idImmuable "2849:20250318-0001" n'existe pas en base
     And json contenu dans le corps de la requete externe "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T01_Prerequis_courseOPE_a_Inserer.json"
     When Requete HTTP externe methode "POST" URL "/import/importerEtatsCoursesProductibles"
     Then Code HTTP externe 200 recu
-    And l'ECP avec idImmuable "2148:1187-F-11999-20251202" doit être présent en base
+    And l'ECP avec idImmuable "2849:20250318-0001" doit être présent en base
     # Test cas PTA
     When Requete HTTP consumer GET URL "/courses" avec parametres numeroCourse "WN986" codeService "2025" dateDebutPeriode "2025-12-02" dateFinPeriode "2025-12-02"
     Then Code HTTP consumer 200 recu
@@ -46,17 +46,32 @@ Feature: Consumer ancien service - Tests de non-régression (TNR)
     And la réponse consumer correspond au modèle attendu "testdata/tnr_sc05_consumer_ancien/json/response/SC05_T01_Reponse_GET_courseOPE.json"
 
   @TNR_SC05_T02
-  Scenario: Recherche de course - Par numeroCourse, indicateurFer, codeCompagnieTransporteur, dateDebutPeriode, dateFinPeriode (TNR-SC05-T02)
+  Scenario: Récupérer une courseCommerciale cas PTA (TNR-SC05-T02)
     # Prérequis: Course commerciale à importer
     Given la course commerciale avec idImmuable "2148:1187-F-081702-20251223" n'existe pas en base
     And json contenu dans le corps de la requete externe "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T02_Prerequis_CourseCommerciale_a_Inserer.json"
-    When Requete HTTP externe methode "POST" URL "/import/importerEtatsCoursesDistribuables"
+    When Requete HTTP externe methode "POST" URL "/import/importerCoursesCommerciales"
     Then Code HTTP externe 200 recu
-    And l'ECD avec idImmuable "2148:1187-F-081702-20251223" doit être présent en base
+    And la course commerciale avec idImmuable "2148:1187-F-081702-20251223" doit être présente en base
     # Test GET /coursesCommerciales
     When Requete HTTP consumer GET URL "/coursesCommerciales" avec parametres numeroCourse "081702" indicateurFer "FERRE" codeCompagnieTransporteur "1187" dateDebutPeriode "2025-12-23" dateFinPeriode "2025-12-23"
     Then Code HTTP consumer 200 recu
     And la réponse consumer correspond au modèle attendu "testdata/tnr_sc05_consumer_ancien/json/response/SC05_T02_Reponse_GET_coursesCommerciales.json"
+
+  @TNR_SC05_T03
+  Scenario: Recherche un etatCourseProductible PTA (TNR-SC05-T03)
+    # Prérequis: ECP PTA à importer
+    Given l'ECP avec idImmuable "2148:1187-F-88865-20251130" n'existe pas en base
+    And json contenu dans le corps de la requete externe "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T03_Prerequis_ECP_a_Inserer.json"
+    When Requete HTTP externe methode "POST" URL "/import/importerEtatsCoursesProductibles"
+    Then Code HTTP externe 200 recu
+    And l'ECP avec idImmuable "2148:1187-F-88865-20251130" doit être présent en base
+    # Test GET /etatsCoursesProductibles
+    When Requete HTTP consumer GET URL "/etatsCoursesProductibles" avec parametre idImmuable "2148:1187-F-88865-20251130"
+    Then Code HTTP consumer 200 recu
+    And un seul objet est retourné dans la réponse consumer
+    And la réponse consumer contient le numeroCourse "88865"
+    And la réponse consumer correspond au modèle attendu "testdata/tnr_sc05_consumer_ancien/json/response/SC05_T03_Reponse_GET_etatsCoursesProductibles.json"
 
   @TNR_SC05_T04
   Scenario: Recherche de course OPE - Clé sillon présente (TNR-SC05-T04)
@@ -67,17 +82,17 @@ Feature: Consumer ancien service - Tests de non-régression (TNR)
     Then Code HTTP externe 200 recu
     And l'ECP avec idImmuable "2148:1187-F-11224-20251130" doit être présent en base
     # Prérequis: ECP2 à importer
-    Given l'ECP avec idImmuable "2148:1187-F-11225-20251130" n'existe pas en base
+    Given l'ECP avec idImmuable "2147:1187-F-11224-20251130" n'existe pas en base
     And json contenu dans le corps de la requete externe "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T04_Prerequis_ECP2_a_Inserer.json"
     When Requete HTTP externe methode "POST" URL "/import/importerEtatsCoursesProductibles"
     Then Code HTTP externe 200 recu
-    And l'ECP avec idImmuable "2148:1187-F-11225-20251130" doit être présent en base
+    And l'ECP avec idImmuable "2147:1187-F-11224-20251130" doit être présent en base
     # Prérequis: ECP3 à importer
-    Given l'ECP avec idImmuable "2148:1187-F-11223-20251130" n'existe pas en base
+    Given l'ECP avec idImmuable "2148:1187-F-11224-20251129" n'existe pas en base
     And json contenu dans le corps de la requete externe "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T04_Prerequis_ECP3_a_Inserer.json"
     When Requete HTTP externe methode "POST" URL "/import/importerEtatsCoursesProductibles"
     Then Code HTTP externe 200 recu
-    And l'ECP avec idImmuable "2148:1187-F-11223-20251130" doit être présent en base
+    And l'ECP avec idImmuable "2148:1187-F-11224-20251129" doit être présent en base
     # Tests RetournerClesCoursesParSillon - 7 cas de test
     When Requete HTTP consumer POST URL "/courses/retournerClesCoursesParSillon" avec json "testdata/tnr_sc05_consumer_ancien/json/request/SC05_T04_Request_RetournerClesCoursesParSillon_1.json"
     Then Code HTTP consumer 200 recu
@@ -128,10 +143,12 @@ Feature: Consumer ancien service - Tests de non-régression (TNR)
     And le dossier événement avec identifiantDansSystemeCreateur "5H-2025-12-16" doit être présent en base
     And le dossier événement avec identifiantDansSystemeCreateur "5H-2025-12-17" doit être présent en base
     And le dossier événement avec identifiantDansSystemeCreateur "5J-2025-12-16" doit être présent en base
+    # STEP 1: Appeler le service - 1 seul CTR inclus
     When Requete HTTP consumer GET URL "/dossierEvenements" avec parametres dateDebutPeriode "2025-01-15" dateFinPeriode "2025-01-16"
     Then Code HTTP consumer 200 recu
     And la réponse consumer correspond au modèle attendu "testdata/tnr_sc05_consumer_ancien/json/response/SC05_T05_Reponse_Step1_Get_DossierEvenement.json"
     And la réponse consumer contient le champ "validePourDiffusion" avec la valeur "true"
+    # STEP 2: Appeler le service - Plusieurs CTR inclus
     When Requete HTTP consumer GET URL "/dossierEvenements" avec parametres dateDebutPeriode "2025-01-15" dateFinPeriode "2025-01-16" codeTransporteurResponsable "5G"
     Then Code HTTP consumer 200 recu
     And la réponse consumer correspond au modèle attendu "testdata/tnr_sc05_consumer_ancien/json/response/SC05_T05_Reponse_Step2_Get_DossierEvenement.json"
